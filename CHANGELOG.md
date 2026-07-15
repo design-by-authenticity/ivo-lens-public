@@ -1,21 +1,34 @@
 # Changelog
 
-All notable public releases of the I·V·O Lens repository are recorded here.
-
-This changelog tracks the public release layer. It does not replace the private canonical development log.
+All notable public releases of the I·V·O Lens repository are recorded here. This changelog tracks the public release layer; it does not replace the private canonical development log.
 
 ## [Unreleased]
 
 Planned:
 
 - Canonical research visual
-- Stable Analysis Prompt
 - Stable Design Prompt
 - Stable Cycle Prompt
 - State Logger documentation
 - Worked examples
 - GGZ / lived-experience domain pack
 - Organizations / MKB domain pack
+
+## [Analysis v3.2 and Baseline 1.0 staging] — 2026-07-15
+
+### Added
+
+- Canonical Analysis specification identified as I·V·O Lens Prompt v3.2
+- Public SHA-256 identity for the frozen specification
+- Validation Study Protocol identified separately as v3.2.1
+- Baseline 1.0 identifier and research-package structure
+- Explicit statement that no separate Analysis Prompt v3.2.1 exists
+
+### Research status
+
+- Baseline 1.0 is frozen but unexecuted
+- Planned study remains 300 base runs plus 30 variance runs
+- No empirical validation outcome is claimed before execution
 
 ## [Baseline 1.0 public shell] — 2026-07-15
 
@@ -29,11 +42,3 @@ Planned:
 - Public/private release-governance model
 - Contribution guidance
 - Placeholders for prompts, examples, and visual assets
-
-### Research status
-
-- Canonical instrument and validation design frozen as Baseline 1.0
-- Validation protocol version: v3.2.1
-- Planned study: 300 base runs plus 30 within-model variance runs
-- Empirical execution paused because of external API/token cost
-- No validation outcome claimed before execution
