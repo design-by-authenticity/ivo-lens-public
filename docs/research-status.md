@@ -13,11 +13,19 @@ The I·V·O project separates several states that are often blurred together:
 
 A frozen protocol is not automatically a validated protocol.
 
+## Canonical version distinction
+
+- Analysis specification: **I·V·O Lens Prompt v3.2**
+- Validation Study Protocol: **v3.2.1**
+- Frozen package: **Baseline 1.0** (`baseline-1.0-2026-07-13`)
+
+No separate Analysis Prompt v3.2.1 exists. The v3.2 specification was frozen unchanged inside the v3.2.1 validation package.
+
 ## Baseline 1.0
 
-The current research baseline contains:
+The current baseline contains:
 
-- a frozen canonical instrument architecture;
+- the v3.2 canonical Analysis specification;
 - a frozen validation-study protocol at v3.2.1;
 - a 100-domain sampling frame;
 - three planned model runs per domain;
@@ -26,26 +34,20 @@ The current research baseline contains:
 - dependency validation;
 - explicit criteria that can count against modules in the instrument.
 
-Planned execution volume:
-
-- 300 base calls;
-- 30 variance calls;
-- 330 total model calls.
+Planned execution volume: 300 base calls plus 30 variance calls, 330 total.
 
 ## Current blocker
 
-The study has not yet been executed because the required external model API usage has a material token cost and no suitable research budget or partner is currently attached to the run.
-
-This repository will not present fabricated, simulated, or plausibly reconstructed model outputs as if they were empirical study data.
+The study has not yet been executed because the required external model API usage has a material token cost and no suitable research budget or partner is currently attached to the run. This repository will not present fabricated, simulated, or plausibly reconstructed model outputs as empirical study data.
 
 ## What can be claimed now
 
 Reasonable current claims:
 
-- the framework has a specified operator structure;
+- the framework has a specified operator and module structure;
 - it has undergone iterative cross-domain stress testing;
 - identifiable failure modes have produced concrete protocol refinements;
-- the validation design is frozen and reproducible in principle;
+- the validation design is frozen and inspectable;
 - the public Zenodo record shows continuing access and downloads.
 
 Claims that are not yet justified:
