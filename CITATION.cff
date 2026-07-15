@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use the I·V·O Lens, please cite it using this metadata."
+title: "I·V·O Lens"
+type: software
+authors:
+  - family-names: "van der Wal"
+    given-names: "Ivo"
+    orcid: ""
+repository-code: "https://github.com/design-by-authenticity/ivo-lens-public"
+url: "https://design-by-authenticity.org"
+doi: "10.5281/zenodo.20189652"
+license: "CC-BY-NC-SA-4.0"
+version: "Baseline 1.0"
+date-released: "2026-07-15"
+abstract: >-
+  The I·V·O Lens is a domain-independent framework for structural observation
+  and analysis using three operators: O (Possibility Space), V (Relational
+  Change), and I (Observation / Distinction), with complementary OVI generative
+  and IVO analytical reading directions.
+keywords:
+  - systems thinking
+  - structural analysis
+  - observation
+  - relational change
+  - possibility space
+  - AI prompting
+  - design research
