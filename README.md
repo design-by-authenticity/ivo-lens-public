@@ -8,34 +8,31 @@
 
 ## What this repository is
 
-This is the public research and release layer of the **I·V·O Lens**, developed by **Ivo van der Wal** under **Design by Authenticity**.
-
-It is intentionally separate from the private canonical development environment. The private repository holds working hypotheses, experimental mutations, unpublished observations, internal governance, and material that is not ready for release. This repository contains only material selected for publication, citation, review, reproducibility, or practical use.
-
-The governing rule is simple:
+This is the public research and release layer of the **I·V·O Lens**, developed by **Ivo van der Wal** under **Design by Authenticity**. It is intentionally separate from the private canonical development environment.
 
 > The private canonical repository is the source of truth. This public repository is a curated release surface.
 
 ## The three operators
 
-- **O — Possibility Space**  
-  The field of relations, structures, conditions, boundaries, and pressures that determine what can arise, persist, change, or disappear.
-
-- **V — Relational Change**  
-  Movement, interaction, asymmetry, coupling, feedback, causality, resonance, and other changes in relations.
-
-- **I — Observation / Distinction**  
-  The position or function from which distinctions are made: what becomes visible, from where, under which assumptions, and within which domain of validity.
+- **O — Possibility Space:** the field of relations, structures, conditions, boundaries, and pressures that determine what can arise, persist, change, or disappear.
+- **V — Relational Change:** movement, interaction, asymmetry, coupling, feedback, causality, resonance, and other changes in relations.
+- **I — Observation / Distinction:** the position or function from which distinctions are made: what becomes visible, from where, under which assumptions, and within which domain of validity.
 
 The generative reading is **O → V → I**. The analytical reading is **I → V → O**. These are complementary directions through one structure, not competing models.
 
-## Current status
+## Current canonical release
 
-The core instrument and its validation design have reached **Baseline 1.0**. The validation protocol is frozen at **v3.2.1** so that later revisions can be compared against a stable baseline.
+- **Analysis specification:** I·V·O Lens Prompt v3.2
+- **Specification SHA-256:** `2b2b8721b2948d2df0966523a6afed8f47cec8fea293acefea196e4e841d22a6`
+- **Validation protocol:** v3.2.1
+- **Validation package:** Baseline 1.0 (`baseline-1.0-2026-07-13`)
+- **Execution status:** frozen but not executed
 
-The planned 330-call validation run is currently paused because external model API execution has a material token cost. No synthetic or fabricated validation results will be presented as empirical data.
+There is no separate Analysis Prompt v3.2.1. The v3.2 specification was included unchanged in the validation package; v3.2.1 identifies study-protocol amendments and the frozen research baseline.
 
-See [Research status](docs/research-status.md) for the precise distinction between designed, stress-tested, frozen, executed, and validated.
+The planned 330-call validation run is paused because external model API execution has a material token cost. No synthetic or reconstructed outputs will be presented as empirical data.
+
+See [Research status](docs/research-status.md) for the distinction between designed, stress-tested, frozen, executed, and validated.
 
 ## Repository map
 
@@ -52,26 +49,24 @@ See [Research status](docs/research-status.md) for the precise distinction betwe
 │   └── release-model.md
 ├── prompts/
 │   └── README.md
+├── research/
+│   └── validation/
+│       └── baseline-1.0/
 ├── examples/
 │   └── README.md
 └── assets/
     └── README.md
 ```
 
-## What is public now
-
-This first release establishes the public architecture, terminology, citation route, licensing, research status, and release governance.
-
-The complete canonical prompts, research visual, worked examples, and domain packs will be added only after they have been extracted from the private canonical source and checked for version consistency. This avoids publishing an attractive but already superseded copy.
-
 ## Planned release sequence
 
-1. Canonical research visual
-2. Stable core prompts: Analysis, Design, and Cycle
-3. State Logger documentation and public entry point
-4. Domain packs for GGZ / lived-experience practice and organizations / MKB
-5. Worked cases and pilot findings
-6. Validation results when the frozen study has actually been executed
+1. Canonical Analysis Prompt v3.2 file
+2. Canonical research visual
+3. Stable Design and Cycle prompts
+4. State Logger documentation and public entry point
+5. Domain packs for GGZ / lived-experience practice and organizations / MKB
+6. Worked cases and pilot findings
+7. Validation results when the frozen study has actually been executed
 
 ## Use and attribution
 
@@ -83,7 +78,7 @@ For citation metadata, see [`CITATION.cff`](CITATION.cff).
 
 ## Boundaries
 
-The I·V·O Lens is an analytical and design instrument. It is not a diagnostic system, clinical treatment, substitute for professional judgment, or claim to describe reality independently of observation. Outputs remain dependent on input quality, observer position, model behavior, domain knowledge, and the explicit assumptions used in the analysis.
+The I·V·O Lens is an analytical and design instrument. It is not a diagnostic system, clinical treatment, substitute for professional judgment, or claim to describe reality independently of observation. Outputs remain dependent on input quality, observer position, model behavior, domain knowledge, and explicit assumptions.
 
 ## Contact
 
