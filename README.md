@@ -2,7 +2,7 @@
 
 **A domain-independent framework for structural observation, instantiated relation, and structured possibility.**
 
-[Website](https://design-by-authenticity.org) · [Zenodo archive](https://doi.org/10.5281/zenodo.20189652) · [Latest archived version](https://doi.org/10.5281/zenodo.21202030)
+[Website](https://design-by-authenticity.com/ivo-lens-canonical) · [Zenodo archive](https://doi.org/10.5281/zenodo.20189652) · [Latest archived version](https://doi.org/10.5281/zenodo.21202030)
 
 ---
 
