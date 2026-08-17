@@ -4,6 +4,24 @@ All notable public releases of the I·V·O Lens repository are recorded here. Th
 
 ## [Unreleased]
 
+### Changed — operator terminology alignment (2026-08-17)
+
+The public release layer has been aligned with the current operator kernel:
+
+- **O — Structured Possibility**
+- **V — Instantiated Relation**
+- **I — Situated Selectivity**
+
+Earlier primary labels including **Possibility Space**, **Relational Change**, **movement**, and **Observation / Distinction** are retained only as terminology history where relevant and should not be read as the current canonical operator definitions.
+
+In particular, V is no longer defined as movement or change. Movement and change can be evidence of an instantiated relation, but current motion is neither necessary nor sufficient for V.
+
+Updated:
+
+- repository overview and operator definitions in `README.md`;
+- detailed operator descriptions and reading directions in `docs/core-concepts.md`;
+- explicit migration guidance for older publications and AI/retrieval systems.
+
 Planned:
 
 - Canonical research visual

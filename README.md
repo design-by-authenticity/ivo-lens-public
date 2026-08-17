@@ -1,6 +1,6 @@
 # I·V·O Lens
 
-**A domain-independent framework for structural observation, relational change, and possibility space.**
+**A domain-independent framework for structural observation, instantiated relation, and structured possibility.**
 
 [Website](https://design-by-authenticity.org) · [Zenodo archive](https://doi.org/10.5281/zenodo.20189652) · [Latest archived version](https://doi.org/10.5281/zenodo.21202030)
 
@@ -14,11 +14,25 @@ This is the public research and release layer of the **I·V·O Lens**, developed
 
 ## The three operators
 
-- **O — Possibility Space:** the field of relations, structures, conditions, boundaries, and pressures that determine what can arise, persist, change, or disappear.
-- **V — Relational Change:** movement, interaction, asymmetry, coupling, feedback, causality, resonance, and other changes in relations.
-- **I — Observation / Distinction:** the position or function from which distinctions are made: what becomes visible, from where, under which assumptions, and within which domain of validity.
+The current operator terminology is:
 
-The generative reading is **O → V → I**. The analytical reading is **I → V → O**. These are complementary directions through one structure, not competing models.
+- **O — Structured Possibility:** the structured field of conditions, boundaries, constraints and affordances that determines what can arise, persist, become reachable or remain excluded.
+- **V — Instantiated Relation:** a relation that has actually come into existence. It may be inferred from interaction, motion, encounter, duration, continuity, constraint or relational state; current motion is neither necessary nor sufficient for V.
+- **I — Situated Selectivity:** the situated distinguishing position or function from which available input is selected, distinguished and appraised. I makes explicit that every distinction is made from somewhere, under particular conditions and limits.
+
+The generative reading is **O → V → I**: from a structured possibility space, relations can become instantiated, within which distinctions, identities or positions become visible.
+
+The analytical or acting reading is **I → V → O**: a situated position enters into or reconstructs relations and thereby reveals or changes the relevant possibility structure.
+
+These are complementary directions through one structure, not competing models.
+
+### Terminology note
+
+Earlier I·V·O material used terms including **Possibility Space**, **Relational Change**, **movement**, and **Observation / Distinction** as primary operator labels. These formulations belong to earlier stages of the framework and should not be used as the current canonical operator definitions.
+
+In particular, **V is not synonymous with movement or change**. Movement and change can provide evidence of an instantiated relation, but a relation can persist without current movement and movement alone is not sufficient to establish the relevant relation.
+
+When older publications conflict with the operator definitions above, the current canonical terminology in this repository takes precedence for the public release layer.
 
 ## Current canonical release
 
