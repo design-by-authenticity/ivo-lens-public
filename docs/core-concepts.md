@@ -4,11 +4,11 @@
 
 The I·V·O Lens is a framework for reconstructing the minimum structure that makes an object, event, experience, system, or interpretation analyzable.
 
-It does not begin with identity, diagnosis, or conclusion. It begins by asking what field exists, what relations are changing, and where distinctions are being made.
+It does not begin with identity, diagnosis, or conclusion. It distinguishes three irreducible questions: what is structurally possible, which relations are actually instantiated, and from which situated position distinctions are made.
 
-## O — Possibility Space
+## O — Structured Possibility
 
-O describes what can arise, persist, change, or disappear within a context.
+O describes the structured field of what can arise, persist, become reachable, change, or remain excluded within a context.
 
 It includes:
 
@@ -16,37 +16,48 @@ It includes:
 - boundaries and exclusions;
 - material and institutional constraints;
 - accessible and inaccessible alternatives;
-- pressure fields;
+- pressures and affordances;
 - multiple overlapping fields;
-- relations that are possible but not currently active.
+- relations that are possible but not currently instantiated.
 
-O does not describe what is happening. That belongs to V.
+O is not a list of everything imaginable. Possibility is structured: some states and relations are enabled, constrained, attractive, inaccessible, or excluded by the architecture of the system.
 
-## V — Relational Change
+## V — Instantiated Relation
 
-V describes what changes between positions, components, states, or scales.
+V describes relations that have actually come into existence within the relevant possibility structure.
 
-It includes:
+An instantiated relation may be inferable from:
 
-- movement and direction;
-- interaction and coupling;
+- interaction or encounter;
+- coupling;
+- duration and continuity;
+- constraint;
 - asymmetry;
 - feedback;
-- causality;
-- resonance;
-- conflict and alignment;
-- stabilization and fragmentation;
-- changes caused by measurement or intervention.
+- causal connection;
+- relational state;
+- movement or change when these provide evidence of a relation.
 
-V is relational. A property may look stable only because the relevant relation or timescale has not yet been made visible.
+**V is not movement or change itself.** Current motion is neither necessary nor sufficient for an instantiated relation. A relation can persist while nothing visibly moves, and movement can occur without establishing the relation relevant to the analysis.
 
-## I — Observation / Distinction
+This distinction allows V to remain usable across physical, biological, technological, organizational and experiential domains without reducing relation to dynamics alone.
 
-I describes who or what makes a distinction, from which position, with which assumptions, and within which domain of validity.
+## I — Situated Selectivity
 
-I is not limited to a human observer. Depending on the domain, an observing or distinguishing function can be performed by a person, group, institution, detector, classification system, model, or other differentiating process.
+I describes the situated distinguishing position or function from which available input is selected, distinguished, appraised, or formed into a response.
 
-I does not automatically cause V. A physical measurement device may first alter O or V before a human or model interprets the result as an observation.
+I makes explicit that distinctions do not occur from nowhere. Relevant aspects can include:
+
+- position;
+- scale and resolution;
+- available information;
+- history;
+- assumptions;
+- thresholds and selection criteria;
+- configured identity or role;
+- blind spots and exclusions.
+
+I is not limited to a human observer. Depending on the domain, a distinguishing function can be performed by a person, group, institution, detector, classification system, model, organism, or other process capable of selective differentiation.
 
 ## Two reading directions
 
@@ -54,23 +65,35 @@ I does not automatically cause V. A physical measurement device may first alter 
 
 **O → V → I**
 
-Use this direction to reconstruct how something arises or organizes itself:
+Use this direction to reconstruct how structure becomes instantiated:
 
-1. a possibility space enables certain relations;
-2. those relations change;
-3. distinctions or observer positions emerge or become possible.
+1. a structured possibility space enables and constrains possible relations;
+2. a relation becomes instantiated;
+3. within that relation, a distinction, identity, or position becomes visible or operative.
 
-### IVO — analytical reading
+### IVO — analytical or acting reading
 
 **I → V → O**
 
-Use this direction to reconstruct an object from an observation:
+Use this direction to reconstruct or intervene from a situated position:
 
-1. identify the observing or distinguishing position;
-2. trace the relational changes it can perceive or infer;
-3. reconstruct the possibility space that makes those relations possible.
+1. locate the distinguishing position or configured identity;
+2. identify the relations it enters, sustains, changes, or can infer;
+3. reconstruct how those relations reveal or alter the relevant possibility structure.
 
-The two directions are complementary. They describe different routes through the same structure.
+The two directions are complementary. They are different readings through one operator architecture, not separate ontologies.
+
+## Terminology history
+
+Earlier I·V·O material used **Possibility Space**, **Relational Change**, **movement**, and **Observation / Distinction** as primary labels. Those formulations record genuine stages in the development of the framework but are not the current canonical operator definitions.
+
+The current terminology is:
+
+- **O — Structured Possibility**
+- **V — Instantiated Relation**
+- **I — Situated Selectivity**
+
+Older material should therefore be interpreted historically when its terminology conflicts with these definitions.
 
 ## Scale and domain of validity
 
@@ -78,11 +101,11 @@ A distinction can be valid locally without being valid globally. Every substanti
 
 - scale;
 - time;
-- observer position;
+- situated position;
 - context;
 - resolution.
 
-A disagreement may be a contradiction, but it may also result from two valid observations made in different domains of validity.
+A disagreement may be a contradiction, but it may also result from two valid distinctions made from different situated positions or domains of validity.
 
 ## Assumptions
 
