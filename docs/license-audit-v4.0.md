@@ -41,4 +41,4 @@ The readable canonical page does not itself add a conflicting rights statement. 
 
 ## Zenodo constraint
 
-The published v4.0 Zenodo record uses CC BY-NC-SA 4.0 and does not imply that commercial rights are granted. Its version DOI is [`10.5281/zenodo.22012048`](https://doi.org/10.5281/zenodo.22012048); the distinct all-versions concept DOI is [`10.5281/zenodo.22012047`](https://doi.org/10.5281/zenodo.22012047). The archived canonical file matches the authoritative SHA-256 checksum recorded in this repository.
+The published v4.0 Zenodo record uses CC BY-NC-SA 4.0 and does not imply that commercial rights are granted. Its version DOI is [`10.5281/zenodo.22012366`](https://doi.org/10.5281/zenodo.22012366); the continuing all-versions concept DOI is [`10.5281/zenodo.20189652`](https://doi.org/10.5281/zenodo.20189652). The archived canonical file matches the authoritative SHA-256 checksum recorded in this repository.
