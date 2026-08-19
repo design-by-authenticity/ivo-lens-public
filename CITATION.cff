@@ -1,27 +1,27 @@
 cff-version: 1.2.0
-message: "If you use the I·V·O Lens, please cite it using this metadata."
-title: "I·V·O Lens"
+message: "If you use the I·V·O Lens Prompt v4.0, please cite it using this metadata."
+title: "I·V·O Lens Prompt v4.0 — Canonical Reference Version"
 type: software
 authors:
   - family-names: "van der Wal"
     given-names: "Ivo"
-    orcid: ""
 repository-code: "https://github.com/design-by-authenticity/ivo-lens-public"
-url: "https://design-by-authenticity.org"
-doi: "10.5281/zenodo.20189652"
+url: "https://design-by-authenticity.com/ivo-lens-canonical"
 license: "CC-BY-NC-SA-4.0"
-version: "Baseline 1.0"
-date-released: "2026-07-15"
+version: "4.0"
+date-released: "2026-08-19"
 abstract: >-
-  The I·V·O Lens is a domain-independent framework for structural observation
-  and analysis using three operators: O (Possibility Space), V (Relational
-  Change), and I (Observation / Distinction), with complementary OVI generative
-  and IVO analytical reading directions.
+  The I·V·O Lens Prompt v4.0 is a frozen, domain-independent instrument for
+  structural analysis using O (Structured Possibility), V (Instantiated
+  Relation), and I (Situated Selectivity) as functional assignments within an
+  explicitly stated scope. Version 4.0 strengthens the I-boundary through
+  positive-evidence, revocability, remove-and-compare, system-boundary, and
+  cross-scale non-cancellation safeguards.
 keywords:
   - systems thinking
   - structural analysis
-  - observation
-  - relational change
-  - possibility space
+  - structured possibility
+  - instantiated relation
+  - situated selectivity
   - AI prompting
   - design research

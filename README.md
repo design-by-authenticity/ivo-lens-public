@@ -1,98 +1,95 @@
-# I·V·O Lens
+# I·V·O Lens Prompt v4.0 — Canonical Reference Version
 
-**A domain-independent framework for structural observation, instantiated relation, and structured possibility.**
+Public source, versioning, provenance, and research repository for the **I·V·O Lens**, developed by **Ivo van der Wal** under **Design by Authenticity**.
 
-[Website](https://design-by-authenticity.com/) · [Zenodo archive](https://doi.org/10.5281/zenodo.20189652) · [Latest archived version](https://doi.org/10.5281/zenodo.21202030)
-
----
-
-## What this repository is
-
-This is the public research and release layer of the **I·V·O Lens**, developed by **Ivo van der Wal** under **Design by Authenticity**. It is intentionally separate from the private canonical development environment.
-
-> The private canonical repository is the source of truth. This public repository is a curated release surface.
-
-## The three operators
-
-The current operator terminology is:
-
-- **O — Structured Possibility:** the structured field of conditions, boundaries, constraints and affordances that determines what can arise, persist, become reachable or remain excluded.
-- **V — Instantiated Relation:** a relation that has actually come into existence. It may be inferred from interaction, motion, encounter, duration, continuity, constraint or relational state; current motion is neither necessary nor sufficient for V.
-- **I — Situated Selectivity:** the situated distinguishing position or function from which available input is selected, distinguished and appraised. I makes explicit that every distinction is made from somewhere, under particular conditions and limits.
-
-The generative reading is **O → V → I**: from a structured possibility space, relations can become instantiated, within which distinctions, identities or positions become visible.
-
-The analytical or acting reading is **I → V → O**: a situated position enters into or reconstructs relations and thereby reveals or changes the relevant possibility structure.
-
-These are complementary directions through one structure, not competing models.
-
-### Terminology note
-
-Earlier I·V·O material used terms including **Possibility Space**, **Relational Change**, **movement**, and **Observation / Distinction** as primary operator labels. These formulations belong to earlier stages of the framework and should not be used as the current canonical operator definitions.
-
-In particular, **V is not synonymous with movement or change**. Movement and change can provide evidence of an instantiated relation, but a relation can persist without current movement and movement alone is not sufficient to establish the relevant relation.
-
-When older publications conflict with the operator definitions above, the current canonical terminology in this repository takes precedence for the public release layer.
+[Public introduction and downloads](https://design-by-authenticity.com/ivo-lens) · [Readable canonical web version](https://design-by-authenticity.com/ivo-lens-canonical)
 
 ## Current canonical release
 
-- **Analysis specification:** I·V·O Lens Prompt v3.2
-- **Specification SHA-256:** `2b2b8721b2948d2df0966523a6afed8f47cec8fea293acefea196e4e841d22a6`
-- **Validation protocol:** v3.2.1
-- **Validation package:** Baseline 1.0 (`baseline-1.0-2026-07-13`)
-- **Execution status:** frozen but not executed
+- **Title:** I·V·O Lens Prompt v4.0 — Canonical Reference Version
+- **Status:** Frozen v4.0 Release
+- **Version:** 4.0
+- **Release date:** 19 August 2026
+- **Author:** Ivo van der Wal
+- **Canonical file:** [`prompts/ivo-lens-prompt-v4.0.md`](prompts/ivo-lens-prompt-v4.0.md)
+- **SHA-256:** `52ad1a66ee938e1e154651d398b68865c303cf9c6c53d1a624042b7c0353a0dc`
 
-There is no separate Analysis Prompt v3.2.1. The v3.2 specification was included unchanged in the validation package; v3.2.1 identifies study-protocol amendments and the frozen research baseline.
+This is the only canonical v4.0 prompt in this repository. The v4.0 release candidates are preserved solely as development history and provenance; they are not alternative canonical versions.
 
-The planned 330-call validation run is paused because external model API execution has a material token cost. No synthetic or reconstructed outputs will be presented as empirical data.
+## What the I·V·O Lens is
 
-See [Research status](docs/research-status.md) for the distinction between designed, stress-tested, frozen, executed, and validated.
+The I·V·O Lens is a domain-independent framework for structural analysis. It reconstructs three analytical functions within an explicitly stated scope:
 
-## Repository map
+- **O — Structured Possibility**
+- **V — Instantiated Relation**
+- **I — Situated Selectivity**
+
+O, V, and I are functional assignments within scope, not ontological classes of entities. The canonical prompt contains the operative definitions, evidence requirements, boundaries, analysis procedure, output format, and falsifiability conditions.
+
+## Repository purpose
+
+GitHub is the public layer for **source, versioning, provenance, and research**. It is not a replacement for the accessible website explanation.
 
 ```text
 .
-├── README.md
-├── LICENSE.md
+├── prompts/
+│   ├── ivo-lens-prompt-v4.0.md
+│   └── development-history/v4.0/
+├── releases/
+│   ├── v4.0.0.md
+│   └── v4.0.0-manifest.json
+├── research/
+│   ├── stress-tests/
+│   └── validation/baseline-1.0/
+├── docs/
 ├── CITATION.cff
 ├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── docs/
-│   ├── core-concepts.md
-│   ├── research-status.md
-│   └── release-model.md
-├── prompts/
-│   └── README.md
-├── research/
-│   └── validation/
-│       └── baseline-1.0/
-├── examples/
-│   └── README.md
-└── assets/
-    └── README.md
+└── LICENSE.md
 ```
 
-## Planned release sequence
+- **Canonical prompt:** [`prompts/ivo-lens-prompt-v4.0.md`](prompts/ivo-lens-prompt-v4.0.md)
+- **RC1–RC4 provenance:** [`prompts/development-history/v4.0/`](prompts/development-history/v4.0/)
+- **v4.0 release notes:** [`releases/v4.0.0.md`](releases/v4.0.0.md)
+- **Stress-test provenance:** [`research/stress-tests/`](research/stress-tests/)
+- **Historical Baseline 1.0 validation design:** [`research/validation/baseline-1.0/`](research/validation/baseline-1.0/)
+- **Research status:** [`docs/research-status.md`](docs/research-status.md)
 
-1. Canonical Analysis Prompt v3.2 file
-2. Canonical research visual
-3. Stable Design and Cycle prompts
-4. State Logger documentation and public entry point
-5. Domain packs for GGZ / lived-experience practice and organizations / MKB
-6. Worked cases and pilot findings
-7. Validation results when the frozen study has actually been executed
+## Versioning and provenance
 
-## Use and attribution
+RC1, RC2, RC3, and RC4 document the development history of v4.0. They are preserved for provenance and are not canonical versions. Only **I·V·O Lens Prompt v4.0 — Canonical Reference Version** is canonical.
 
-Unless a file states otherwise, the conceptual and written material in this repository is licensed under **CC BY-NC-SA 4.0**. Attribution must name:
+The earlier Analysis v3.2 specification remains part of the historical Baseline 1.0 record. It is not the current public canonical release and is not silently rewritten.
+
+After publication, tag `v4.0.0` is treated as immutable. Corrections require a new patch release such as `v4.0.1`; backwards-compatible canonical development uses a minor release; a fundamentally new architecture uses a new major release.
+
+## Website and archival roles
+
+- [`/ivo-lens`](https://design-by-authenticity.com/ivo-lens) — accessible public introduction and downloads
+- [`/ivo-lens-canonical`](https://design-by-authenticity.com/ivo-lens-canonical) — readable web representation of canonical v4.0
+- [GitHub](https://github.com/design-by-authenticity/ivo-lens-public) — source, versioning, provenance, and research
+- Zenodo — permanent release archive and DOI after the checked GitHub v4.0.0 release is published
+
+Existing Zenodo records predate v4.0: [archive record](https://doi.org/10.5281/zenodo.20189652) and [latest pre-v4.0 archived version](https://doi.org/10.5281/zenodo.21202030). No v4.0 DOI is claimed yet.
+
+## Citation
+
+Until the version-specific v4.0 Zenodo DOI exists, cite:
+
+> Ivo van der Wal (2026). *I·V·O Lens Prompt v4.0 — Canonical Reference Version*. Design by Authenticity. Version 4.0. https://design-by-authenticity.com/ivo-lens-canonical
+
+Machine-readable metadata is available in [`CITATION.cff`](CITATION.cff). A version DOI and, where applicable, a concept DOI will be added only after Zenodo publication, with their roles explicitly distinguished.
+
+## License and commercial use
+
+Unless a file states otherwise, the material in this repository is licensed under **CC BY-NC-SA 4.0**. Attribution must name:
 
 > Ivo van der Wal — Design by Authenticity — I·V·O Lens
 
-For citation metadata, see [`CITATION.cff`](CITATION.cff).
+Sharing and adaptation are permitted under the license for non-commercial use with attribution and ShareAlike. Commercial deployment, paid training, proprietary-product integration, organization-wide implementation, resale, and professional domain packs require a separate agreement with Design by Authenticity. See [`LICENSE.md`](LICENSE.md).
 
 ## Boundaries
 
-The I·V·O Lens is an analytical and design instrument. It is not a diagnostic system, clinical treatment, substitute for professional judgment, or claim to describe reality independently of observation. Outputs remain dependent on input quality, observer position, model behavior, domain knowledge, and explicit assumptions.
+The I·V·O Lens is an analytical and design instrument. It is not a diagnostic system, clinical treatment, substitute for professional judgment, or claim to describe reality independently of observation. A frozen and stress-tested prompt is not automatically empirically validated; see [`docs/research-status.md`](docs/research-status.md).
 
 ## Contact
 

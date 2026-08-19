@@ -1,22 +1,22 @@
 # Public release model
 
-## One source of truth
+## Released artifacts and sources of truth
 
-The I·V·O ecosystem uses a private canonical repository as its durable source of truth.
+The I·V·O ecosystem maintains distinct, explicitly versioned artifacts. Internal/private kernels and public Lens Prompt releases are different version lines and must not be renumbered or presented as competing copies of one artifact.
 
-This public repository is downstream from that source. It must not independently invent or silently modify definitions, operator rules, prompt modules, naming conventions, visual parameters, or research-status claims.
+For the public prompt line, the frozen prompt file identified in the release manifest is the source of truth for that release. This repository must not independently invent or silently modify definitions, operator rules, prompt modules, naming conventions, or research-status claims after release.
 
 ```text
-private canonical source
-        ↓ approved extraction
-public GitHub release
+approved frozen public prompt
+        ↓ checked release commit
+public GitHub release and tag
         ↓ distribution and citation
 website · Zenodo · users · reviewers · pilots
 ```
 
-## Why the repositories are separated
+## Why internal and public artifacts are separated
 
-The private environment may contain:
+An internal environment may contain:
 
 - exploratory mutations;
 - contradictory drafts;
@@ -29,7 +29,7 @@ The private environment may contain:
 
 Publishing that whole environment would confuse active truth with historical development and could expose material that was never intended for release.
 
-The public repository therefore functions as a curated research object rather than a mirrored workshop.
+The public repository therefore functions as a curated research object rather than a mirrored workshop. An internal kernel version such as v2.0.0 does not compete with or determine the public prompt version number v4.0; each artifact follows its own declared governance and lineage.
 
 ## Release criteria
 
@@ -72,6 +72,11 @@ A GitHub state should be archived to Zenodo when it represents a meaningful rele
 
 ## Website
 
-The website explains relevance, applications, and routes to collaboration. It should link to GitHub for current public structure and to Zenodo for archival citation.
+The website explains relevance, applications, and routes to collaboration:
 
-The website is not the canonical source of technical truth.
+- `https://design-by-authenticity.com/ivo-lens` is the accessible public introduction and download page.
+- `https://design-by-authenticity.com/ivo-lens-canonical` is the readable web representation of the current canonical prompt.
+- GitHub is the source, versioning, provenance, and research layer.
+- Zenodo is the permanent release archive and DOI layer.
+
+The website representation must remain traceable to the exact GitHub canonical artifact and checksum; it does not replace that release artifact as the technical source of truth.

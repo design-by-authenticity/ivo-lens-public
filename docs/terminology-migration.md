@@ -1,8 +1,10 @@
 # I·V·O terminology migration
 
-## Current operator canon
+> **Historical status:** This document records the public terminology alignment of 17 August 2026. It is preserved as pre-v4.0 migration history and is not the current canonical specification. For current definitions and safeguards, use [I·V·O Lens Prompt v4.0 — Canonical Reference Version](../prompts/ivo-lens-prompt-v4.0.md).
 
-As of 2026-08-17, the public release layer uses the following primary operator definitions:
+## Operator terminology aligned on 17 August 2026
+
+On 2026-08-17, the public release layer adopted the following primary operator labels:
 
 - **O — Structured Possibility**
 - **V — Instantiated Relation**

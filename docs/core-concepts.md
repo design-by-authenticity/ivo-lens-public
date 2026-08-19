@@ -1,5 +1,7 @@
 # Core concepts
 
+> **Status:** Explanatory overview. The sole operative canonical v4.0 source is [I·V·O Lens Prompt v4.0 — Canonical Reference Version](../prompts/ivo-lens-prompt-v4.0.md). If this overview is less specific or appears to conflict with the frozen prompt, the frozen prompt takes precedence.
+
 ## Purpose
 
 The I·V·O Lens is a framework for reconstructing the minimum structure that makes an object, event, experience, system, or interpretation analyzable.
