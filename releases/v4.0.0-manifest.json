@@ -1,0 +1,17 @@
+{
+  "title": "I·V·O Lens Prompt v4.0 — Canonical Reference Version",
+  "tag": "v4.0.0",
+  "version": "4.0",
+  "releaseDate": "2026-08-19",
+  "author": "Ivo van der Wal",
+  "publisher": "Design by Authenticity",
+  "status": "prepared-not-published",
+  "license": "CC-BY-NC-SA-4.0",
+  "canonicalFile": "prompts/ivo-lens-prompt-v4.0.md",
+  "sha256": "52ad1a66ee938e1e154651d398b68865c303cf9c6c53d1a624042b7c0353a0dc",
+  "publicIntroduction": "https://design-by-authenticity.com/ivo-lens",
+  "canonicalWebVersion": "https://design-by-authenticity.com/ivo-lens-canonical",
+  "repository": "https://github.com/design-by-authenticity/ivo-lens-public",
+  "doi": null,
+  "zenodoStatus": "not-published"
+}
