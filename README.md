@@ -67,17 +67,17 @@ After publication, tag `v4.0.0` is treated as immutable. Corrections require a n
 - [`/ivo-lens`](https://design-by-authenticity.com/ivo-lens) — accessible public introduction and downloads
 - [`/ivo-lens-canonical`](https://design-by-authenticity.com/ivo-lens-canonical) — readable web representation of canonical v4.0
 - [GitHub](https://github.com/design-by-authenticity/ivo-lens-public) — source, versioning, provenance, and research
-- Zenodo — permanent release archive and DOI after the checked GitHub v4.0.0 release is published
+- [Zenodo v4.0.0 record](https://doi.org/10.5281/zenodo.22012048) — permanent archive and version-specific DOI
 
-Existing Zenodo records predate v4.0: [archive record](https://doi.org/10.5281/zenodo.20189652) and [latest pre-v4.0 archived version](https://doi.org/10.5281/zenodo.21202030). No v4.0 DOI is claimed yet.
+The version-specific DOI for this release is [`10.5281/zenodo.22012048`](https://doi.org/10.5281/zenodo.22012048). The all-versions concept DOI is [`10.5281/zenodo.22012047`](https://doi.org/10.5281/zenodo.22012047); use the version DOI when citing the frozen v4.0 release. Earlier records remain separate pre-v4.0 archives: [archive record](https://doi.org/10.5281/zenodo.20189652) and [latest pre-v4.0 archived version](https://doi.org/10.5281/zenodo.21202030).
 
 ## Citation
 
-Until the version-specific v4.0 Zenodo DOI exists, cite:
+To cite the frozen v4.0 release, use:
 
-> Ivo van der Wal (2026). *I·V·O Lens Prompt v4.0 — Canonical Reference Version*. Design by Authenticity. Version 4.0. https://design-by-authenticity.com/ivo-lens-canonical
+> Ivo van der Wal (2026). *I·V·O Lens Prompt v4.0 — Canonical Reference Version*. Design by Authenticity. Version 4.0. https://doi.org/10.5281/zenodo.22012048
 
-Machine-readable metadata is available in [`CITATION.cff`](CITATION.cff). A version DOI and, where applicable, a concept DOI will be added only after Zenodo publication, with their roles explicitly distinguished.
+Machine-readable metadata is available in [`CITATION.cff`](CITATION.cff). The version DOI identifies this immutable release; the concept DOI resolves to the latest version in this independent public version line.
 
 ## License and commercial use
 
