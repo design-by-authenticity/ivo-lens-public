@@ -25,9 +25,10 @@ The v4.0 release remains immutable historical provenance and is not silently rew
 ## Development history and provenance
 
 - [`development-history/v4.0/`](development-history/v4.0/) preserves RC1–RC4 for the v4.0 release.
-- [`development-history/v4.1/`](development-history/v4.1/) preserves the exact frozen v4.1 RC2 artifact used in the controlled Hessdalen cross-model regression.
+- [`development-history/v4.1/`](development-history/v4.1/) documents the v4.1 RC2 provenance.
+- The exact frozen v4.1 RC2 file used in the controlled Hessdalen cross-model regression is preserved in the published [Zenodo v4.1.0 archive](https://doi.org/10.5281/zenodo.23083767).
 
-Development-history files are provenance artifacts, not alternative canonical releases.
+Development-history material is provenance, not an alternative canonical release.
 
 ## Historical specifications
 
