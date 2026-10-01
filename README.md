@@ -16,7 +16,7 @@ Public source, versioning, provenance, and research repository for the **I·V·O
 - **Version DOI:** [`10.5281/zenodo.23083767`](https://doi.org/10.5281/zenodo.23083767)
 - **All-versions concept DOI:** [`10.5281/zenodo.20189652`](https://doi.org/10.5281/zenodo.20189652)
 
-Version 4.1 retains the canonical O/V/I operator semantics frozen in v4.0 and adds epistemic safeguards developed from reproducible cross-model failure modes. The exact frozen v4.1 RC2 artifact used in the controlled Hessdalen regression is preserved for provenance and reproducibility; it is not an alternative canonical prompt.
+Version 4.1 retains the canonical O/V/I operator semantics frozen in v4.0 and adds epistemic safeguards developed from reproducible cross-model failure modes. The exact frozen v4.1 RC2 artifact used in the controlled Hessdalen regression is preserved in the published Zenodo v4.1.0 archive for provenance and reproducibility; it is not an alternative canonical prompt.
 
 ## Canonical identity
 
@@ -70,7 +70,8 @@ The changes were derived from reproducible cross-model failures in Project Hessd
 ```
 
 - **Current canonical prompt:** [`prompts/ivo-lens-prompt-v4.1.md`](prompts/ivo-lens-prompt-v4.1.md)
-- **Frozen v4.1 RC2 regression artifact:** [`prompts/development-history/v4.1/ivo-lens-prompt-v4.1-rc2-frozen.md`](prompts/development-history/v4.1/ivo-lens-prompt-v4.1-rc2-frozen.md)
+- **v4.1 provenance note:** [`prompts/development-history/v4.1/README.md`](prompts/development-history/v4.1/README.md)
+- **Exact frozen RC2 artifact:** preserved in the [Zenodo v4.1.0 archive](https://doi.org/10.5281/zenodo.23083767)
 - **v4.1 release notes:** [`releases/v4.1.0.md`](releases/v4.1.0.md)
 - **Hessdalen regression note:** [`research/stress-tests/hessdalen-cross-model-regression-v4.1.md`](research/stress-tests/hessdalen-cross-model-regression-v4.1.md)
 - **Previous frozen canonical v4.0:** [`prompts/ivo-lens-prompt-v4.0.md`](prompts/ivo-lens-prompt-v4.0.md)
@@ -82,7 +83,7 @@ The public prompt line preserves released canonical prompts and the development 
 
 - **v4.0.0** remains the frozen historical predecessor.
 - **v4.1.0** is the current canonical release.
-- **v4.1 RC2** is preserved only as the exact regression artifact from which the final v4.1 release was promoted.
+- **v4.1 RC2** is preserved as the exact regression artifact in the Zenodo v4.1.0 archive from which the final v4.1 release was promoted.
 
 Released tags are treated as immutable. Corrections require a new patch release; backwards-compatible canonical development uses a minor release; a fundamentally new architecture uses a new major release.
 
