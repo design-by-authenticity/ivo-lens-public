@@ -4,21 +4,30 @@ This directory contains stable public prompt releases and their documented devel
 
 ## Current canonical release
 
-- **Title:** I·V·O Lens Prompt v4.0 — Canonical Reference Version
-- **Status:** Frozen v4.0 Release
-- **Version:** 4.0
-- **Release date:** 19 August 2026
+- **Title:** I·V·O Lens Prompt v4.1 — Canonical Reference Version
+- **Status:** Canonical v4.1 Release
+- **Version:** 4.1.0
+- **Release date:** 1 October 2026
 - **Author:** Ivo van der Wal
-- **Canonical file:** [`ivo-lens-prompt-v4.0.md`](ivo-lens-prompt-v4.0.md)
-- **SHA-256:** `52ad1a66ee938e1e154651d398b68865c303cf9c6c53d1a624042b7c0353a0dc`
+- **Canonical file:** [`ivo-lens-prompt-v4.1.md`](ivo-lens-prompt-v4.1.md)
+- **SHA-256:** `a9228051d2b86bddd06c143f1f065e0ac0c9acb6273b3a472deb087e8db8fc7b`
+- **DOI:** `10.5281/zenodo.23083767`
 
-`ivo-lens-prompt-v4.0.md` is the only canonical v4.0 prompt.
+`ivo-lens-prompt-v4.1.md` is the sole current canonical prompt in this repository.
+
+## Previous canonical release
+
+- `ivo-lens-prompt-v4.0.md` — frozen canonical v4.0 predecessor
+- `ivo-lens-prompt-v4.0.sha256` — v4.0 digest
+
+The v4.0 release remains immutable historical provenance and is not silently rewritten.
 
 ## Development history and provenance
 
-[`development-history/v4.0/`](development-history/v4.0/) contains RC1, RC2, RC3, and RC4.
+- [`development-history/v4.0/`](development-history/v4.0/) preserves RC1–RC4 for the v4.0 release.
+- [`development-history/v4.1/`](development-history/v4.1/) preserves the exact frozen v4.1 RC2 artifact used in the controlled Hessdalen cross-model regression.
 
-These files document the development history of v4.0. They are preserved for provenance and are not canonical versions. They must not be presented, cited, distributed, or consumed as alternatives to the frozen canonical v4.0 prompt.
+Development-history files are provenance artifacts, not alternative canonical releases.
 
 ## Historical specifications
 
