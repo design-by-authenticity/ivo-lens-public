@@ -4,14 +4,30 @@ All notable public releases of the I·V·O Lens repository are recorded here. Th
 
 ## [Unreleased]
 
-- Publish GitHub Release and immutable tag `v4.0.0` only after all pre-release checks pass.
-- Add the version-specific v4.0 DOI, and distinguish it from any concept DOI, only after Zenodo publication.
+No unreleased canonical changes.
+
+## [4.1.0] — 2026-10-01
+
+### Epistemic safeguard release
+
+Released **I·V·O Lens Prompt v4.1 — Canonical Reference Version**. Operator semantics remain unchanged from v4.0.
+
+- Added shared evidence provenance and claim-status vocabularies.
+- Added observation → event → class → membership → mechanism separation.
+- Added explicit negative-claim and unknown-state gating.
+- Added hypothesized-mechanism and evidential-dependency gates.
+- Added causal-status discipline within V.
+- Made claim-level reliability primary and constrained synthesis/intervention strength.
+- Preserved the exact frozen v4.1 RC2 artifact used in the controlled Hessdalen cross-model regression.
+- Published the version-specific Zenodo DOI `10.5281/zenodo.23083767`.
+
+See `releases/v4.1.0.md` and `research/stress-tests/hessdalen-cross-model-regression-v4.1.md`.
 
 ## [4.0.0] — 2026-08-19
 
 ### Major canonical revision
 
-Released **I·V·O Lens Prompt v4.0 — Canonical Reference Version** as the sole current public canonical prompt.
+Released **I·V·O Lens Prompt v4.0 — Canonical Reference Version** as the sole current public canonical prompt at the time of release.
 
 - **Canonical file:** `prompts/ivo-lens-prompt-v4.0.md`
 - **SHA-256:** `52ad1a66ee938e1e154651d398b68865c303cf9c6c53d1a624042b7c0353a0dc`
