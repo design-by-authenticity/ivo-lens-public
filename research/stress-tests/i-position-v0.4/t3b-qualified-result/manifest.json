@@ -1,0 +1,11 @@
+{
+  "archived_on": "2026-10-05",
+  "source_filename": "Geplakte tekst.txt",
+  "archived_filename": "T3B_ORIGINAL_ANALYSIS.txt",
+  "sha256": "fa8dfbdfe750ee0e961f647b863154dcbd8e351d9285e44b9df8da4f8536ba84",
+  "verdict": "PASS WITH SEMANTIC QUALIFICATION",
+  "qualification": "Sufficient discriminator in tested structure; necessity not established",
+  "review_authority": "Explicit user review",
+  "t4_status": "Prepared; not executed",
+  "canonical_revision_adopted": false
+}

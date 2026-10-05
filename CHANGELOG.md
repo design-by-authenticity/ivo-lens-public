@@ -8,6 +8,8 @@ No unreleased canonical changes.
 
 ### Research archive — 2026-10-05
 
+- Recorded [T3B PASS WITH SEMANTIC QUALIFICATION](research/stress-tests/i-position-v0.4/t3b-qualified-result/T3B_REVIEW_DECISION.md), preserving the original output and the sufficient-not-necessary distinction. Prepared T4 position-boundary tests; no protocol edit or new test execution.
+
 - Registered the [reviewed T3 veto-boundary failure](research/stress-tests/i-position-v0.4/t3-veto-boundary/T3_REVIEW_DECISION.md), preserved the supplied original output, and prepared an unexecuted T3B discriminator design. Stage 3 is UNRESOLVED; nesting/scope successes are retained. No protocol semantics changed.
 
 - Archived the supplied [v0.4 experimental draft](research/stress-tests/i-position-v0.4/README.md) byte-for-byte with a checksum manifest and links to the v0.3 decision record. No v0.4 tests executed or canonical changes adopted.

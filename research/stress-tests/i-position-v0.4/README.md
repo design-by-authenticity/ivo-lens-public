@@ -27,3 +27,7 @@ Future results should be recorded separately with exact inputs, outputs, models,
 ## T3 reviewed failure and T3B design
 
 The [T3 decision record](t3-veto-boundary/T3_REVIEW_DECISION.md) registers **PASS ON NESTING / FAIL-OR-UNRESOLVED ON VETO BOUNDARY** following explicit user review. The original supplied output remains intact; Stage 3 becomes UNRESOLVED and the Stage 1 ranking matrix cell is corrected separately. [T3B](t3-veto-boundary/T3B_VETO_VERSUS_THRESHOLD_TEST_DESIGN.md) is a prepared, unexecuted discriminator test. T4 is deferred; v0.4 source semantics remain unchanged.
+
+## Qualified T3B result and T4
+
+[T3B review](t3b-qualified-result/T3B_REVIEW_DECISION.md) records **PASS WITH SEMANTIC QUALIFICATION**: relational constrained allocation is sufficient in the tested structure, not proven necessary for all I-functions. The fixed T3 veto is now conditionally NOT ESTABLISHED. The supplied Cases A–C do not certify completion of every previously designed T3B control. The T4 deferral is lifted; [T4's position-boundary design](t4-position-boundary/T4_TEST_DESIGN.md) is prepared but not executed. Protocol v0.4 remains unchanged.

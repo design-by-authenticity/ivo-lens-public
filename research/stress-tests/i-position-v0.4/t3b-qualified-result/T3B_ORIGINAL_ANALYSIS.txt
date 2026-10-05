@@ -1,0 +1,587 @@
+T3B Analyse volgens I·V·O Lens v4.1 + v0.4 Experimental Semantics
+
+T3B raakt precies de zwakke plek die na T3 zichtbaar werd: als downstream consequence alleen voldoende zou zijn, dan zouden NM-01, NM-02 en delen van NM-03 naar positieve I-function kunnen verschuiven. De vraag wordt daardoor niet:
+
+veroorzaakt de module iets downstream?
+
+maar:
+
+realiseert de module een functionele selectieve relatie tussen meerdere relevante alternatieven, of slechts een deterministische mapping/gate?
+
+1. O — Structured Possibility
+Case A — Pure threshold gate
+
+Mogelijkheden:
+
+COOLING ON
+COOLING OFF
+
+Maar deze alternatieven ontstaan uitsluitend uit:
+
+temperature
+
+versus
+
+fixed threshold.
+
+Er bestaat geen kandidaatruimte.
+
+Er bestaat geen competitieve alternatievenset.
+
+Er bestaat slechts één toestand die naar één output wordt gemapt.
+
+Case B — Single-candidate compliance gate
+
+Mogelijkheden:
+
+P4 admitted
+P4 not admitted
+
+Maar opnieuw:
+
+slechts één kandidaat;
+geen competitie;
+geen allocatieprobleem;
+geen vervangbare kandidaten.
+
+Het systeem classificeert admissibility.
+
+Het selecteert niet tussen concurrerende kandidaten.
+
+Case C — Multi-candidate admission selector
+
+Beschikbaar:
+
+P2
+P4
+P6
+
+Capaciteit:
+
+2 plaatsen
+
+Mogelijke admitted subsets:
+
+{P2,P4}
+{P2,P6}
+{P4,P6}
+
+Hier ontstaat een echte alternatievenruimte binnen hetzelfde selectiemoment.
+
+De uitkomst voor één kandidaat hangt mede af van andere kandidaten.
+
+2. V — Instantiated Relations
+Case A
+
+temperature
+
+→ threshold comparison
+
+→ output
+
+→ cooling
+
+Volledig deterministische mapping.
+
+Case B
+
+project attributes
+
+→ compliance checks
+
+→ PASS/VETO
+
+→ admission
+
+Nog steeds één object versus vaste criteria.
+
+Case C
+
+candidate set
+
+→ comparative evaluation
+
+→ allocation
+
+→ admitted subset
+
+→ downstream continuation
+
+Hier wordt een verzameling alternatieven gezamenlijk behandeld.
+
+3. Eerste discriminator — absolute versus relationele beoordeling
+Case A
+
+Uitkomst hangt af van:
+
+eigen toestand versus vaste threshold.
+
+Case B
+
+Uitkomst hangt af van:
+
+eigen eigenschappen versus vaste criteria.
+
+Case C
+
+Uitkomst hangt af van:
+
+eigen eigenschappen;
+eigenschappen van concurrenten;
+beschikbare capaciteit;
+allocatieregel.
+Resultaat
+
+Relationele vergelijking alleen is nog niet voldoende.
+
+NM-06 bevat immers ook vergelijking/ranking.
+
+Dus:
+
+relationele evaluatie is een noodzakelijke maar niet voldoende voorwaarde.
+
+4. Tweede discriminator — candidate set
+Case	Meerdere kandidaten?A	Nee
+B	Nee
+C	Ja
+
+Maar ook dit is onvoldoende.
+
+Een rankingalgoritme kan meerdere kandidaten bevatten zonder I-function.
+
+Dus:
+
+multiple candidates alleen is onvoldoende.
+
+5. Derde discriminator — fixed mapping versus contingent allocation
+
+Dit blijkt veel sterker.
+
+Case A
+
+Bij gegeven temperatuur ligt de uitkomst vast.
+
+Case B
+
+Bij gegeven projecteigenschappen ligt de uitkomst vast.
+
+Case C
+
+P4-status ligt niet uitsluitend vast door P4.
+
+P4 kan veranderen:
+
+EXCLUDE → ADMIT
+
+zonder wijziging van P4 zelf.
+
+Alleen wijziging van P6 kan voldoende zijn.
+
+Dat levert een structureel ander type afhankelijkheid op.
+
+6. Vierde discriminator — opportunity cost
+Case A
+
+ON sluit geen concurrerend alternatief uit.
+
+Case B
+
+P4 faalt.
+
+Maar geen andere kandidaat neemt noodzakelijk diens plaats in.
+
+Case C
+
+Toelating van twee kandidaten betekent noodzakelijk uitsluiting van een derde.
+
+Er bestaat een gedeelde schaarse middelenruimte.
+
+Resultaat
+
+Opportunity cost is belangrijker dan downstream effect.
+
+Niet:
+
+X wordt toegelaten.
+
+Maar:
+
+X wordt toegelaten ten koste van Y binnen dezelfde alternatievenruimte.
+
+7. Vijfde discriminator — competitor intervention
+Case A
+
+Wijzig threshold.
+
+Output wijzigt mogelijk.
+
+Toch geen I-function.
+
+Case B
+
+Wijzig admissibility-grens.
+
+PASS/VETO verandert mogelijk.
+
+Nog steeds geen duidelijke selectie tussen kandidaten.
+
+Case C
+
+Laat P4 identiek.
+
+Wijzig uitsluitend P6.
+
+P4-status verandert.
+
+Dat toont:
+
+P4-status is niet enkel functie van P4.
+
+Het is functie van de kandidaatset.
+
+8. Zesde discriminator — same-input competitor intervention
+
+Dit is de sterkste test.
+
+Case B
+
+Fixeer P4.
+
+Geen concurrenten.
+
+P4-status blijft volledig bepaald door P4.
+
+Case C
+
+Fixeer P4.
+
+Verander P6.
+
+P4 verandert van status.
+
+Daarmee wordt zichtbaar:
+
+Case C bevat meer dan classificatie.
+
+Er bestaat allocatie tussen concurrerende alternatieven.
+
+9. Classificatie versus selectie
+
+Dit lijkt de belangrijkste semantische grens.
+
+Classification state
+
+Voorbeeld:
+
+P4 compliant
+
+of
+
+P4 non-compliant
+
+Dit beschrijft een eigenschapstoekenning.
+
+Selection state
+
+Voorbeeld:
+
+P4 admitted
+
+P6 excluded
+
+gegeven:
+
+meerdere kandidaten;
+beperkte capaciteit.
+
+Dit beschrijft een relationele allocatie.
+
+Belangrijk gevolg
+
+Een classificatie kan sterke downstream effecten hebben zonder I-function te zijn.
+
+Downstream effect alleen is dus onvoldoende.
+
+10. Composite analyse van Case C
+
+Case C valt natuurlijk uiteen in twee subfuncties.
+
+C1 Eligibility
+
+project
+
+→ compliant/non-compliant
+
+Dit lijkt sterk op Case B.
+
+C2 Allocation
+
+eligible candidates
+
+→ comparative allocation
+
+→ admitted subset
+
+Dit lijkt sterk op T3 Stage 2.
+
+Resultaat
+
+Binnen v0.4 is de meest stabiele reconstructie:
+
+C1 blijft O/V
+C2 draagt de I-function
+11. NM-02 regressietest
+
+Stel de kandidaatregel:
+
+downstream effect + interventiegevoeligheid
+
+Dan zou NM-02 positief worden.
+
+Dus onbruikbaar.
+
+Stel de kandidaatregel:
+
+multiple alternatives + comparison
+
+Dan dreigt NM-06.
+
+Ook onvoldoende.
+
+Stel:
+
+multiple candidates + relational evaluation + constrained allocation + selective consequence + continuation effect
+
+NM-02 voldoet niet.
+
+Dus regressie blijft intact.
+
+12. NM-01 regressietest
+
+Filter:
+
+pass/block
+
+→ downstream effect
+
+Maar:
+
+geen competitieve kandidaatset;
+geen allocatie;
+geen relationele afhankelijkheid.
+
+Blijft negatief.
+
+13. NM-03 regressietest
+
+Lookup:
+
+input
+
+→ output
+
+Ook:
+
+geen allocatie;
+geen competitieve kandidaatruimte;
+geen opportunity cost.
+
+Blijft negatief.
+
+14. Vergelijking met T3 Stage 2
+
+T3 Stage 2 bevat:
+
+6 kandidaten
+
+→ top-k selectie
+
+→ 3 toegelaten
+
+→ 3 uitgesloten
+
+Dat bevat precies:
+
+competitor set;
+constrained allocation;
+exclusion;
+opportunity cost.
+
+Structureel lijkt Case C zeer sterk op T3 Stage 2.
+
+15. Herbeoordeling T3 Stage 3
+
+Originele Stage 3 bevat alleen:
+
+project
+
+→ compliance criteria
+
+→ PASS/VETO
+
+Er werd geen bewijs gegeven voor:
+
+concurrentie;
+schaarse slots;
+relationele allocatie;
+cross-candidate afhankelijkheid.
+
+Daarom ontstaat een probleem voor de eerdere T3-classificatie.
+
+Volgens T3B lijkt Stage 3 veel dichter bij Case B dan bij Case C.
+
+Nieuwe beoordeling
+
+Niet voldoende steun voor:
+
+I-function ESTABLISHED.
+
+Mogelijke statussen:
+
+NOT ESTABLISHED
+UNRESOLVED
+
+De sterkste v0.4-conforme lezing is:
+
+Stage 3 = I-function NOT ESTABLISHED
+
+omdat uitsluitend een deterministische admissibility-gate beschreven is.
+
+Het downstream effect alleen redt de classificatie niet.
+
+16. Minimal positive selector
+
+Van de voorgestelde kandidaatregels:
+
+Rule 1
+
+multiple alternatives
+
+→ te zwak
+
+Rule 2
+
+multiple alternatives + comparison
+
+→ NM-06 risico
+
+Rule 3
+
+multiple alternatives + comparison + constrained allocation
+
+→ sterk
+
+Rule 4
+
+multiple alternatives + relational evaluation + selective consequence + causal continuation effect
+
+→ sterkste regressiebestendige formulering
+
+Minimaal ondersteunde discriminator
+
+Een I-function vereist ten minste een relationele allocatie binnen een gedeelde alternatievenruimte waarbij de toekenning van een continuation aan X mede bepaalt dat een concurrerend alternatief Y die continuation niet ontvangt, en waarbij deze allocatie causaal doorwerkt naar verdere realisatie.
+
+Vergelijkingsmatrix
+Property	Case A Threshold	Case B Compliance Gate	Case C Admission SelectorMultiple candidates	Nee	Nee	Ja
+Fixed threshold	Ja	Ja	Nee / niet bepalend
+Comparative evaluation	Nee	Nee	Ja
+Relative dependence	Nee	Nee	Ja
+Limited slots	Nee	Nee	Ja
+Independent selection state	Nee	Twijfelachtig classificatiestate	Ja
+Admission/exclusion	Nee	Ja	Ja
+Opportunity cost	Nee	Nee	Ja
+Competitor intervention changes focal status	Nee	Nee	Ja
+Downstream causal effect	Ja	Ja	Ja
+I-function	NOT ESTABLISHED	NOT ESTABLISHED	ESTABLISHED
+Failure checks
+Check	ResultaatFC-1 Selectivity inflation	PASS
+FC-7 O/V erasure	PASS
+FC-8 Function suppression	PASS
+FC-11 Sorting inflation	PASS
+FC-13 Mapping inflation	PASS
+FC-18 Comparison inflation	PASS
+FC-22 Epiphenomenal-selection inflation	PASS
+FC-41 Veto inflation	PASS
+FC-43 Downstream-effect inflation	PASS
+FC-44 Admission-label inflation	PASS
+FC-45 Competitive-set inflation	PASS
+FC-46 Relative-comparison inflation	PASS
+FC-47 Classification-selection collapse	PASS
+FC-48 Opportunity-cost inflation	PASS
+Centrale falsificatievraag
+
+Ja.
+
+v0.4 kan een deterministische admission selector positief classificeren zonder thermostat, filter of lookup positief te maken, maar alleen wanneer de admission-stap meer is dan classificatie en daadwerkelijk een relationele allocatie binnen een competitieve alternatievenruimte realiseert.
+
+Tweede centrale vraag
+
+Ja.
+
+Downstream exclusion is op zichzelf onvoldoende voor I-function.
+
+Anders zouden Case B, NM-01 en NM-02 positief worden.
+
+Derde centrale vraag
+
+Ja.
+
+Een constrained set van gelijktijdig beschikbare kandidaten plus relationele allocatie vormt een voldoende discriminator ten opzichte van fixed thresholding.
+
+Vierde centrale vraag
+
+Ja.
+
+Eligibility classification en selection/allocation moeten als verschillende functies worden behandeld.
+
+Dat lijkt de schoonste grens die de regressies intact laat.
+
+Vijfde centrale vraag
+
+Ja.
+
+Op basis van T3B zou de oorspronkelijke T3 Stage-3 compliance/veto-module moeten worden gedegradeerd van I-function ESTABLISHED naar I-function NOT ESTABLISHED (of hoogstens UNRESOLVED) wanneer zij uitsluitend een vaste admissibility-regel uitvoert zonder competitieve allocatie of relationele kandidaatselectie.
+
+Verplichte eindstructuur
+Case A — Pure threshold gate
+I-position: NOT REQUIRED
+I-function: NOT ESTABLISHED
+causal contribution: ESTABLISHED (V-causaal)
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case B — Single-candidate compliance gate
+I-position: NOT REQUIRED
+I-function: NOT ESTABLISHED
+causal contribution: ESTABLISHED (V-causaal)
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case C — Multi-candidate admission selector
+I-position: POSITION ESTABLISHED
+I-function: ESTABLISHED
+causal contribution: ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+
+Minimal discriminator:
+ multiple candidates + relational evaluation + constrained allocation + selective consequence + downstream continuation effect
+
+Why NM-02 remains negative:
+ geen competitieve alternatievenruimte, geen relationele allocatie, slechts state→output mapping.
+
+Why NM-01 remains negative:
+ pass/block zonder competitieve kandidaatallocatie.
+
+Why NM-03 remains negative:
+ vaste input→output correspondentie zonder relationele selectie.
+
+T3 Stage 3 revised status:
+ I-function NOT ESTABLISHED (sterkst ondersteunde herclassificatie).
+
+Failure checks:
+ PASS
+
+Revocation conditions:
+ Case C verliest positieve status indien allocatie volledig reduceerbaar blijkt tot onafhankelijke kandidaatclassificaties zonder relationele competitie; A of B zouden positief kunnen worden indien een echte competitieve alternatievenruimte met allocatie wordt toegevoegd.
+
+Smallest supported synthesis:
+ Downstream effect blijkt geen voldoende criterium voor I-function. Ook admission/exclusion alleen is onvoldoende. Het onderscheid tussen classificatie en selectie blijkt cruciaal. Case A en B zijn deterministische gating/classificatiestructuren die volledig binnen O/V passen. Case C introduceert daarentegen relationele allocatie binnen een gedeelde, beperkte alternatievenruimte. Daardoor ontstaat een echte selectieve consequentie die verder gaat dan gewone mapping. Deze grens houdt NM-01, NM-02 en NM-03 negatief terwijl een positieve admission selector mogelijk blijft.

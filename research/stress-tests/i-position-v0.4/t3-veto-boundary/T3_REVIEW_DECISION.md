@@ -52,3 +52,7 @@ Register the failure before proceeding to T4. Prepare [T3B — veto versus thres
 Open question: **When does criterion-driven admission/exclusion constitute an evidenced selective function, and when is it a deterministic gate/threshold represented in V?**
 
 The source analysis references T1, but no T1 source record or exact original T3 input was supplied with this submission. Run date, model/settings, and raw execution history are not available here. This review does not establish the result of T3B or cross-model reproducibility. Canonical v4.1 remains unchanged.
+
+## Subsequent review
+
+The [qualified T3B result](../t3b-qualified-result/T3B_REVIEW_DECISION.md) records the next conditional Stage 3 classification and lifts the T4 deferral. The earlier review above remains the historical checkpoint.
