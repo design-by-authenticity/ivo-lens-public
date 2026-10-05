@@ -38,3 +38,7 @@ The historical Baseline 1.0 package remains under [`../validation/baseline-1.0/`
 - [v0.3 protocol archive](i-position-v0.3/README.md) preserves the supplied position/function/autonomy experimental protocol with its checksum and testing status. It supersedes v0.2 for experimental testing only; no v0.3 results are recorded by this update, and canonical v4.1 remains unchanged.
 
 - [v0.3 regression summary / decision note](i-position-v0.3/IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md) subsequently reports nine near-miss cases and four positive reruns, with an open I-position boundary and a recorded decision toward experimental v0.4. See the archive readme for evidence limitations and differences from earlier records.
+
+## Experimental I-position v0.4 draft
+
+- [v0.4 experimental draft archive](i-position-v0.4/README.md) preserves the supplied draft following the v0.3 decision note. Includes checksum provenance and proposed regression obligations; no v0.4 test results or canonical changes are recorded by this update.

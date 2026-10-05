@@ -50,3 +50,7 @@ The report describes reruns after stricter boundaries were established, but full
 The proposed next phase adds partial-causation, redundant-selector, nested-selection, and further position-boundary cases alongside the existing suites and cross-model checks. These are recorded proposals, not completed tests.
 
 The supplied note is preserved byte-for-byte with its own [provenance manifest](regression-decision-manifest.json). The original protocol, its manifest, and earlier regression source documents remain unchanged. The archive date does not establish the execution dates.
+
+## Subsequent experimental draft
+
+The supplied [v0.4 experimental draft](../i-position-v0.4/README.md) is archived separately as the next experimental protocol. It supersedes v0.3 experimentally only. The v0.3 source protocol, decision note, and checksum manifests remain unchanged.
