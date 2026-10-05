@@ -35,3 +35,7 @@ The [T3 decision record](t3-veto-boundary/T3_REVIEW_DECISION.md) registers **PAS
 ## T4 result and architectural amendment proposal
 
 The [T4 decision note](t4-position-boundary/T4_DECISION_NOTE_V0.4_AMENDMENT_PROPOSAL.md) records **POSITIVE I-POSITION HYPOTHESIS NOT ESTABLISHED**, regression discipline PASS, and an independent position dimension UNRESOLVED / unsupported by current tests. It proposes demoting I-position to a research hypothesis while retaining scope, carrier, access, history, and outside view as situated-analysis elements. NM-07 is reviewed as POSITION UNRESOLVED; NM-07B remains NOT ESTABLISHED. The original A–E analysis is preserved; it does not certify completion of every earlier P1–P6 design control. No protocol is amended and T5 is not started.
+
+## Subsequent supplied amendments and freeze record
+
+The [day-end checkpoint](../2026-10-05-research-checkpoint/README.md) adds the full supplied T4 proposal, T5 capacity/contribution correction, and reported v0.4-amended freeze decision, followed by governance review and a non-canonical v4.2 candidate. These later records follow the historical checkpoints above; no original protocol or earlier report is overwritten.

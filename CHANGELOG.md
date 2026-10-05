@@ -8,6 +8,8 @@ No unreleased canonical changes.
 
 ### Research archive — 2026-10-05
 
+- Completed the [twelve-document research checkpoint](research/stress-tests/2026-10-05-research-checkpoint/README.md): seven exact existing artifacts verified and five supplied documents added, including T4/T5 amendments, reported experimental freeze/governance decisions, and a v4.2 revision candidate. No canonical promotion or release.
+
 - Archived the [T4 decision note and v0.4 amendment proposal](research/stress-tests/i-position-v0.4/t4-position-boundary/T4_DECISION_NOTE_V0.4_AMENDMENT_PROPOSAL.md), with the unchanged supplied analysis and checksum. Records an unsupported positive I-position hypothesis and proposed demotion to research status; no protocol amendment or T5 execution.
 
 - Recorded [T3B PASS WITH SEMANTIC QUALIFICATION](research/stress-tests/i-position-v0.4/t3b-qualified-result/T3B_REVIEW_DECISION.md), preserving the original output and the sufficient-not-necessary distinction. Prepared T4 position-boundary tests; no protocol edit or new test execution.

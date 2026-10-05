@@ -42,3 +42,7 @@ The historical Baseline 1.0 package remains under [`../validation/baseline-1.0/`
 ## Experimental I-position v0.4 draft
 
 - [v0.4 experimental draft archive](i-position-v0.4/README.md) preserves the supplied draft following the v0.3 decision note. Includes checksum provenance and proposed regression obligations; no v0.4 test results or canonical changes are recorded by this update.
+
+## Complete research checkpoint — 5 October 2026
+
+The [twelve-document day-end inventory](2026-10-05-research-checkpoint/README.md) links seven previously archived exact matches and five newly supplied artifacts: the full T4 amendment proposal, T5 correction, final experimental freeze decision, governance comparison, and non-canonical v4.2 redline candidate. Canonical v4.1 remains unchanged.

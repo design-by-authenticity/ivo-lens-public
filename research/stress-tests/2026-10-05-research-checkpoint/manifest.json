@@ -1,0 +1,79 @@
+{
+  "archived_on": "2026-10-05",
+  "purpose": "Complete inventory of twelve supplied day-end documents",
+  "canonical_status": "v4.1 unchanged; v4.2 candidate not canonical",
+  "artifacts": [
+    {
+      "source_filename": "IVO_LENS_v4.2_CANON_REVISION_CANDIDATE_REDLINE_DRAFT.md",
+      "repository_path": "research/stress-tests/2026-10-05-research-checkpoint/IVO_LENS_v4.2_CANON_REVISION_CANDIDATE_REDLINE_DRAFT.md",
+      "sha256": "94236b88d3339290317d55363fe0e5b8a5633e6aac935aa68978ad737dbcbe53",
+      "action": "Added supplied artifact without changing earlier records"
+    },
+    {
+      "source_filename": "IVO_v4.1_vs_v0.4amended_CANON_COMPARISON_REVISION_GOVERNANCE_REVIEW.md",
+      "repository_path": "research/stress-tests/2026-10-05-research-checkpoint/IVO_v4.1_vs_v0.4amended_CANON_COMPARISON_REVISION_GOVERNANCE_REVIEW.md",
+      "sha256": "7f3ca634e07eab12cf9a71b2be0b39cfef0984920ffa9e6259aca8d556a7a57c",
+      "action": "Added supplied artifact without changing earlier records"
+    },
+    {
+      "source_filename": "IVO_v0.4_FINAL_REGRESSION_SUMMARY_FREEZE_DECISION.md",
+      "repository_path": "research/stress-tests/2026-10-05-research-checkpoint/IVO_v0.4_FINAL_REGRESSION_SUMMARY_FREEZE_DECISION.md",
+      "sha256": "7e14ecc31cbb78a4c70c81ff2d94b97d6ed299399e70ba23959cd0686ad67044",
+      "action": "Added supplied artifact without changing earlier records"
+    },
+    {
+      "source_filename": "T5_CORRECTION_v0.4_FUNCTION_CAPACITY_TOKEN_CONTRIBUTION.md",
+      "repository_path": "research/stress-tests/2026-10-05-research-checkpoint/T5_CORRECTION_v0.4_FUNCTION_CAPACITY_TOKEN_CONTRIBUTION.md",
+      "sha256": "64e30f989c017cd729a1c17d4d0fed95f86f6fc119c0d00afd0e35639294de82",
+      "action": "Added supplied artifact without changing earlier records"
+    },
+    {
+      "source_filename": "T4_DECISION_NOTE_v0.4_AMENDMENT_PROPOSAL.md",
+      "repository_path": "research/stress-tests/2026-10-05-research-checkpoint/T4_DECISION_NOTE_v0.4_AMENDMENT_PROPOSAL.md",
+      "sha256": "1a47e5d1b096685ae3089979026cbe4eb54398dbebb80a054fc1cc3580729f1f",
+      "action": "Added supplied artifact without changing earlier records"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.4_EXPERIMENTAL_DRAFT.md",
+      "repository_path": "research/stress-tests/i-position-v0.4/IVO_I_POSITION_PROTOCOL_v0.4_EXPERIMENTAL_DRAFT.md",
+      "sha256": "e91db06bfdfc567b00f4490dfcd9991a7147102657310ebab7eab1008101d3cc",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md",
+      "repository_path": "research/stress-tests/i-position-v0.3/IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md",
+      "sha256": "39dbba43ddfdbc88197177d0e420a424880b619b9bca4e155ed1b1a6143044dd",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.3_EXPERIMENTAL.md",
+      "repository_path": "research/stress-tests/i-position-v0.3/IVO_I_POSITION_PROTOCOL_v0.3_EXPERIMENTAL.md",
+      "sha256": "48bbf1270bace75100d5655aefcce724bf5f664958471455bca31dc0eebd0f1a",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md",
+      "repository_path": "research/stress-tests/i-position-v0.2/IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md",
+      "sha256": "2152ac5b16d24dc51ef5b1e1d47469aeb03757861629a133f20009644cbee63c",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_v0.2_PRELIMINARY_REGRESSION_SUMMARY.md",
+      "repository_path": "research/stress-tests/i-position-v0.2/IVO_I_POSITION_v0.2_PRELIMINARY_REGRESSION_SUMMARY.md",
+      "sha256": "a773ef268c7b4e8d0317a28cf755fe8cd434663cf04ed9e5924c53a2453ce1c7",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.2.md",
+      "repository_path": "research/stress-tests/i-position-v0.2/IVO_I_POSITION_PROTOCOL_v0.2.md",
+      "sha256": "35876e09bb944a4aea7b039ebae5aef8f746d7429f853060785b9877eacca2fa",
+      "action": "Already archived; exact SHA-256 match"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.1.md",
+      "repository_path": "research/stress-tests/i-position-v0.2/IVO_I_POSITION_PROTOCOL_v0.1.md",
+      "sha256": "3961cbb4ead7e159efd3a7551db11852c39aaf963af2b72518a451f0b818db24",
+      "action": "Already archived; exact SHA-256 match"
+    }
+  ]
+}
