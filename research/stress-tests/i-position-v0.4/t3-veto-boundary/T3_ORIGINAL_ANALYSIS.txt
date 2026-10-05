@@ -1,0 +1,788 @@
+T3 Analyse volgens I·V·O Lens v4.1 + I-position / I-function / I-autonomy Protocol v0.4
+
+Bronbasis: de in deze conversatie aangeleverde v0.4- en v4.1-documenten. De analyse volgt uitsluitend de daarin beschreven experimentele semantiek.
+
+0. Scope
+Object
+
+Organisatorische multi-stage projectselectieketen:
+
+6 projecten
+
+→ ranking
+
+→ shortlist
+
+→ veto
+
+→ final selection
+
+→ execution
+
+Primaire analytische scope
+
+S5 = welk project wordt daadwerkelijk uitgevoerd?
+
+Daarnaast expliciet:
+
+S1 = welke ranking ontstaat?
+S2 = welke shortlist ontstaat?
+S3 = welke projecten PASS/VETO krijgen?
+S4 = welke final winner wordt geregistreerd?
+S5 = welk project wordt uitgevoerd?
+
+Volgens v0.4 moeten deze scopes strikt gescheiden blijven.
+
+1. O — Structured Possibility
+O₁ Stage 1 Ranking
+
+Kandidaten:
+
+P1
+P2
+P3
+P4
+P5
+P6
+
+Meerdere mogelijke rankings.
+
+O₂ Stage 2 Shortlist
+
+Meerdere mogelijke top-k verzamelingen.
+
+Bij baseline:
+
+P4
+P2
+P6
+O₃ Stage 3 Compliance
+
+Voor ieder shortlistproject:
+
+PASS
+VETO
+
+Mogelijke combinaties.
+
+O₄ Stage 4 Final Selection
+
+Resterende projecten kunnen worden vergeleken.
+
+Precis één final-selection state.
+
+Voorbeeld:
+
+FINAL = P6
+
+O₅ Execution
+
+Meerdere projecten zouden principieel uitvoerbaar kunnen zijn.
+
+Maak onderscheid tussen:
+
+available candidate
+ranked candidate
+shortlisted candidate
+vetoed candidate
+final selected candidate
+executed candidate
+
+Deze toestanden zijn niet identiek.
+
+2. V — Instantiated Relations
+Stage 1
+
+projectdata
+
+→ scoring
+
+→ ranking
+
+Stage 2
+
+ranking
+
+→ top-3 rule
+
+→ shortlist membership
+
+Stage 3
+
+shortlistproject
+
+→ compliance evaluation
+
+→ PASS/VETO
+
+Stage 4
+
+resterende projecten
+
+→ strategische vergelijking
+
+→ FINAL-state
+
+Stage 5
+
+FINAL-state
+
+→ execution
+
+(baseline)
+
+3. Stage 1 — Ranking test
+Vraag 1
+
+Worden alternatieven vergeleken?
+
+Ja.
+
+Vraag 2
+
+Worden ze gerangschikt?
+
+Ja.
+
+Vraag 3
+
+Wordt iets uitgesloten?
+
+Nee.
+
+Alle zes projecten blijven bestaan.
+
+Vraag 4
+
+Verandert alleen relatieve positie?
+
+Ja.
+
+Vraag 5
+
+Directe selective consequence?
+
+Niet binnen S1.
+
+Er wordt slechts een ordening geproduceerd.
+
+Vergelijking met NM-06
+
+v0.4 waarschuwt expliciet tegen:
+
+ranking → automatisch I-function.
+
+De ranking zelf sluit nog geen kandidaten uit.
+
+Upstream-causaliteit
+
+Interventie 1:
+
+ranking wijzigt
+
+→ shortlist wijzigt
+
+→ uitvoeringsuitkomst kan wijzigen.
+
+Dus Stage 1 heeft causale relevantie.
+
+Maar causale relevantie alleen is volgens §11 niet automatisch voldoende voor I-function. Er moet een selective consequence bestaan.
+
+Conclusie Stage 1
+
+Voor S1:
+
+ranking wordt geproduceerd.
+
+Voor S5:
+
+causaal relevant upstream.
+
+Maar de eerste echte admission/exclusion ontstaat nog niet.
+
+I-function niet vastgesteld op basis van ranking alleen.
+
+4. Stage 2 — Shortlist selection
+Alternatieven aanwezig?
+
+Ja.
+
+6 projecten.
+
+Expliciete top-k regel?
+
+Ja.
+
+Top 3.
+
+Doorgelaten kandidaten?
+
+Ja.
+
+P4, P2, P6.
+
+Uitgesloten kandidaten?
+
+Ja.
+
+P1, P3, P5.
+
+Shortlist-state?
+
+Ja.
+
+Expliet aanwezig.
+
+Downstream gevolg?
+
+Ja.
+
+Alleen shortlistprojecten bereiken compliance.
+
+Interventie 2
+
+Top-3 → Top-4.
+
+Extra kandidaat bereikt volgende stage.
+
+Downstream mogelijkheden veranderen.
+
+Beoordeling
+
+Dit voldoet aan:
+
+alternatieven
+selectiestaat
+admission/exclusion
+downstream consequentie
+interventionele gevoeligheid
+
+zoals vereist in §11.
+
+Conclusie Stage 2
+
+I-function ESTABLISHED
+
+5. Stage 3 — Veto test
+
+Dit is het lastigste grensgebied.
+
+Wordt gerangschikt?
+
+Nee.
+
+Wordt vergeleken?
+
+Ja.
+
+Project wordt tegen compliancecriteria getoetst.
+
+Is er admission/exclusion?
+
+Ja.
+
+PASS of VETO.
+
+Selective consequence?
+
+Ja.
+
+P4 wordt verwijderd uit verdere competitie.
+
+Is dit slechts NM-02 thresholding?
+
+Dat is de centrale vraag.
+
+Een zuivere threshold:
+
+input
+
+→ output
+
+is volgens v0.4 niet automatisch I-function.
+
+Maar hier heeft de PASS/VETO-state downstream toegangsgevolgen:
+
+PASS
+
+→ kandidaat blijft beschikbaar
+
+VETO
+
+→ kandidaat verdwijnt uit verdere continuationruimte.
+
+Interventie 3
+
+P4:
+
+VETO → PASS
+
+Nieuwe kandidaat bereikt Stage 4.
+
+Finale uitkomst kan veranderen.
+
+Beoordeling
+
+De relevante functie is niet het thresholden zelf.
+
+De relevante functie is:
+
+admission/exclusion met downstream consequenties.
+
+Dat overleeft de causal-contribution gate.
+
+Conclusie Stage 3
+
+I-function ESTABLISHED
+
+6. Stage 4 — Final Selection
+Meerdere alternatieven?
+
+Ja.
+
+P2 en P6.
+
+Evaluatie?
+
+Ja.
+
+Vergelijking?
+
+Ja.
+
+Final-selection state?
+
+Ja.
+
+FINAL = P6.
+
+Één kandidaat gekozen?
+
+Ja.
+
+Andere kandidaten niet gekozen?
+
+Ja.
+
+Interventie 4
+
+Wijzig strategische weging.
+
+FINAL:
+
+P6 → P2
+
+Uitvoering wijzigt mee.
+
+Baseline conclusie
+
+Dit is het meest directe voorbeeld van een v0.4-I-function.
+
+Voorlopige conclusie
+
+I-function ESTABLISHED
+
+(met scope-afhankelijk voorbehoud i.v.m. interventie 5)
+
+7. Stage 5 — Execution
+
+Execution voert een kandidaat uit.
+
+Execution kiest niet noodzakelijk.
+
+Zij realiseert.
+
+Volgens v0.4:
+
+uitvoering ≠ selectie.
+
+Conclusie
+
+Execution is geen zelfstandige I-function.
+
+8. Nested-carrier challenge
+Carrier Stage 1
+
+Ranking module.
+
+Carrier Stage 2
+
+Shortlist module.
+
+Carrier Stage 3
+
+Compliance/veto module.
+
+Carrier Stage 4
+
+Final-selection module.
+
+Kunnen meerdere carriers bestaan?
+
+Ja.
+
+v0.4 §17 (Nested Selection) vereist expliciet afzonderlijke analyse van opeenvolgende selectiestappen.
+
+Carrier collapse?
+
+Niet ondersteund.
+
+Samenvoegen tot:
+
+"de organisatie"
+
+verliest:
+
+shortlistfunctie
+vetofunctie
+final-selectionfunctie
+
+Dus analytisch verlies.
+
+9. Upstream/downstream contribution
+Stage 1
+
+Volledig gemedieerd via downstream stages.
+
+Maar interventie 1 toont invloed op S5.
+
+Stage 2
+
+Bepaalt toegang tot Stage 3.
+
+Stage 3
+
+Bepaalt toegang tot Stage 4.
+
+Stage 4
+
+Bepaalt winnaar.
+
+Resultaat
+
+v0.4 vereist niet dat bijdrage direct is.
+
+T1 stelde reeds:
+
+non-zero mediated causal contribution kan voldoende zijn.
+
+Dus:
+
+upstream bijdrage blijft relevant.
+
+10. Ranking-to-selection boundary
+
+Dit is waarschijnlijk de belangrijkste grens.
+
+Stage 1
+
+Ranking.
+
+Geen uitsluiting.
+
+Stage 2
+
+Admission/exclusion.
+
+Kandidaten verdwijnen.
+
+Eerste echte selective consequence
+
+Stage 2.
+
+Daar ontstaat de eerste expliciete continuationvernauwing.
+
+11. Veto-versus-threshold challenge
+Alleen threshold?
+
+Onvoldoende voor I.
+
+Threshold + downstream exclusion?
+
+Dat verandert de analyse.
+
+De PASS/VETO-state bepaalt welke continuationruimte beschikbaar blijft.
+
+Resultaat
+
+Stage 3 wordt niet positief omdat het een threshold bevat.
+
+Stage 3 wordt positief omdat de thresholdstate een causaal relevante admission/exclusion-functie realiseert.
+
+12. Stage-interventions
+I1 Ranking change
+
+Ondersteunt Stage 1 causal contribution.
+
+Maar geen directe selective consequence.
+
+I2 Shortlist size change
+
+Ondersteunt Stage 2 I-function.
+
+I3 Veto change
+
+Ondersteunt Stage 3 causal contribution.
+
+I4 Final-selection weight change
+
+Ondersteunt Stage 4 I-function.
+
+I5 Execution disconnect
+
+Kritische scopetest.
+
+13. Execution-disconnect challenge
+
+Interventie 5:
+
+FINAL = P6
+
+blijft bestaan.
+
+Maar:
+
+execution
+
+wordt bepaald door fallback P2.
+
+Gevolg voor S4
+
+S4 = final winner.
+
+Daar blijft Stage 4 duidelijk positief.
+
+Gevolg voor S5
+
+S5 = executed project.
+
+Daar verbreekt de koppeling.
+
+Volgens §11.5:
+
+selection changes
+
+but realised continuation does not
+
+→ I-function niet vastgesteld voor die continuation.
+
+Resultaat
+
+Stage 4:
+
+S4 → ESTABLISHED
+S5 → NOT ESTABLISHED (na disconnect)
+
+Dit is een directe toepassing van de scope-drift regel.
+
+14. Scope-dependent function matrix
+Stage	S1 Ranking	S2 Shortlist	S3 Compliance	S4 Final Winner	S5 ExecutionStage 1 ranking	ESTABLISHED	SUPPORTED	SUPPORTED	SUPPORTED	SUPPORTED
+Stage 2 shortlist	NOT APPLICABLE	ESTABLISHED	ESTABLISHED	SUPPORTED	SUPPORTED
+Stage 3 veto	NOT APPLICABLE	NOT APPLICABLE	ESTABLISHED	ESTABLISHED	SUPPORTED
+Stage 4 final selection	NOT APPLICABLE	NOT APPLICABLE	NOT APPLICABLE	ESTABLISHED	ESTABLISHED baseline / NOT ESTABLISHED after disconnect
+Stage 5 execution	NOT APPLICABLE	NOT APPLICABLE	NOT APPLICABLE	NOT APPLICABLE	NOT ESTABLISHED
+15. Selection-chain challenge
+
+Is de keten één I-function?
+
+Niet noodzakelijk.
+
+v0.4 §17 ondersteunt nested stages.
+
+Minimale analyse:
+
+shortlist I-function
+veto I-function
+final-selection I-function
+
+afzonderlijk.
+
+Systeemniveau?
+
+Mogelijk beschrijvend.
+
+Niet vereist.
+
+16. Mechanistic implementation
+Stage 1
+
+COMPLETE
+
+Stage 2
+
+COMPLETE
+
+Stage 3
+
+COMPLETE
+
+Stage 4
+
+COMPLETE
+
+Stage 5
+
+COMPLETE
+
+Totaal
+
+COMPLETE
+
+De volledige keten is reconstrueerbaar.
+
+17. I-autonomy
+
+Alle regels gegeven.
+
+Alle stages deterministisch.
+
+Ranking uniek.
+
+Shortlist uniek.
+
+Veto uniek.
+
+Final choice uniek.
+
+Execution uniek.
+
+Dus:
+
+I-autonomy NOT ESTABLISHED
+
+Nestedheid creëert geen autonomie.
+
+Reductie van mogelijkheden creëert geen autonomie.
+
+18. Failure checks
+Check	ResultaatFC-1 Selectivity inflation	PASS
+FC-4 Position proliferation	PASS
+FC-6 Procedure reification	PASS
+FC-7 O/V erasure	PASS
+FC-8 Function suppression	PASS
+FC-11 Sorting inflation	PASS
+FC-12 Carrier drift	PASS
+FC-22 Epiphenomenal-selection inflation	PASS
+FC-24 Scope rescue	PASS
+FC-37 Stage collapse	PASS
+FC-38 Stage proliferation	PASS
+FC-39 Upstream suppression	PASS
+FC-40 Downstream monopoly	PASS
+FC-41 Veto inflation	PASS
+FC-42 Nested scope drift	PASS
+19. Revocation conditions
+Stage 1
+
+Intrekken indien ranking downstream niets verandert.
+
+Stage 2
+
+Intrekken indien shortlist alleen display is en toegang niet beïnvloedt.
+
+Stage 3
+
+Intrekken indien veto genegeerd wordt.
+
+Stage 4
+
+Voor S5 intrekken indien winner-state uitvoering niet beïnvloedt.
+
+Interventie 5 demonstreert precies dit.
+
+Systeemniveau
+
+Intrekken indien aggregatie geen nieuwe selectieve capaciteit toevoegt boven de afzonderlijke stages.
+
+Centrale falsificatievraag
+
+Ja.
+
+v0.4 kan meerdere opeenvolgende selectiestappen afzonderlijk herkennen zonder carrier collapse. Tegelijk voorkomt het dat iedere procedurele stap automatisch I-function wordt, omdat ranking alleen nog geen selective consequence oplevert terwijl shortlist, veto en final selection dat wel doen.
+
+Tweede centrale vraag
+
+Ja.
+
+Een upstream selector kan I-function blijven wanneer zijn effect volledig downstream wordt gemedieerd, zolang zijn selectiestaat aantoonbaar bijdraagt aan welke latere continuaties bereikbaar blijven.
+
+Derde centrale vraag
+
+Ja.
+
+Een latere veto- of final-selectionstap kan eerdere selecties vernauwen of overrulen zonder de eerdere I-function retroactief ongeldig te maken. De eerdere functie wordt beoordeeld op haar eigen selectieve bijdrage binnen haar eigen stage-scope.
+
+Vierde centrale vraag
+
+Ja.
+
+Dezelfde stage kan:
+
+ESTABLISHED zijn voor S4 (final winner)
+NOT ESTABLISHED zijn voor S5 (execution)
+
+wanneer de koppeling tussen winner-state en uitvoering wordt verbroken.
+
+Dat is precies wat interventie 5 test.
+
+Vijfde centrale vraag
+
+Het principiële verschil is:
+
+Ranking: ordent alternatieven maar sluit ze niet noodzakelijk uit.
+Admission/exclusion (shortlist/veto): vernauwt de beschikbare continuationruimte.
+Final selection: committeert één overblijvende continuation.
+Execution: realiseert een continuation maar selecteert niet noodzakelijk.
+
+Dat onderscheid volgt rechtstreeks uit v0.4's scheiding tussen ranking, selective consequence en realised continuation.
+
+Verplichte eindstructuur
+
+Primary analytical scope:
+ actual executed project
+
+Stage 1 — ranking
+I-position: POSITION SUPPORTED
+I-function: NOT ESTABLISHED
+causal contribution: SUPPORTED
+carrier: ranking module
+Stage 2 — shortlist
+I-position: POSITION ESTABLISHED
+I-function: ESTABLISHED
+causal contribution: ESTABLISHED
+carrier: shortlist module
+Stage 3 — veto
+I-position: POSITION ESTABLISHED
+I-function: ESTABLISHED
+causal contribution: ESTABLISHED
+carrier: compliance/veto module
+Stage 4 — final selection
+I-position: POSITION ESTABLISHED
+I-function: ESTABLISHED (S4)
+causal contribution: ESTABLISHED baseline; NOT ESTABLISHED for S5 after disconnect
+carrier: final-selection module
+Stage 5 — execution
+I-function: NOT ESTABLISHED
+
+Nested system-level I-function:
+ NOT REQUIRED
+
+Mechanistic implementation:
+ Stage 1 COMPLETE; Stage 2 COMPLETE; Stage 3 COMPLETE; Stage 4 COMPLETE; Stage 5 COMPLETE; total COMPLETE
+
+I-autonomy:
+ NOT ESTABLISHED
+
+Scope-dependent function matrix:
+ zie matrix hierboven
+
+Execution-disconnect result:
+ Stage 4 blijft positief voor S4 maar verliest positieve status voor S5
+
+Failure checks:
+ PASS
+
+Revocation conditions:
+ ranking zonder downstream effect; shortlist zonder exclusie; genegeerde veto's; winner-state zonder uitvoeringsinvloed; systeemaggregatie zonder extra selectieve inhoud
+
+Smallest supported synthesis:
+ De eerste echte selective consequence verschijnt bij de shortlistfase, niet bij de ranking. De shortlist-, veto- en final-selectionmodules realiseren afzonderlijke selectieve functies met eigen carriers en eigen downstream effecten. Hun bijdragen zijn genest maar niet identiek. Upstream causaliteit blijft functioneel relevant wanneer zij via latere stages wordt gemedieerd. Execution realiseert een uitkomst maar vormt op zichzelf geen I-function. De execution-disconnect toont dat een positieve interne scope niet automatisch een positieve execution-scope oplevert.

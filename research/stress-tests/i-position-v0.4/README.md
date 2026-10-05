@@ -23,3 +23,7 @@ No v0.4 results were supplied with this draft, and no tests were executed for th
 The exact archived checksum identifies the draft for future comparison. It does not imply that testing has begun, that the draft is stable, or that the stated success criteria have been met. Proposed tests, freeze rules, and governance actions inside the document are preserved as source content; this archival update does not execute them.
 
 Future results should be recorded separately with exact inputs, outputs, models, settings, execution dates, and failure assessments. Revised protocol text should be preserved under a distinct version rather than overwrite this snapshot.
+
+## T3 reviewed failure and T3B design
+
+The [T3 decision record](t3-veto-boundary/T3_REVIEW_DECISION.md) registers **PASS ON NESTING / FAIL-OR-UNRESOLVED ON VETO BOUNDARY** following explicit user review. The original supplied output remains intact; Stage 3 becomes UNRESOLVED and the Stage 1 ranking matrix cell is corrected separately. [T3B](t3-veto-boundary/T3B_VETO_VERSUS_THRESHOLD_TEST_DESIGN.md) is a prepared, unexecuted discriminator test. T4 is deferred; v0.4 source semantics remain unchanged.

@@ -1,0 +1,12 @@
+{
+  "archived_on": "2026-10-05",
+  "status": "experimental_boundary_failure_and_unexecuted_test_design",
+  "original_source_filename": "Geplakte tekst.txt",
+  "original_archived_filename": "T3_ORIGINAL_ANALYSIS.txt",
+  "original_sha256": "9be71ad562f0a0f4c244797177165638a01220a719cff7f8f16b2b82b408df12",
+  "review_authority": "Explicit user review in this conversation",
+  "reviewed_verdict": "PASS ON NESTING / FAIL-OR-UNRESOLVED ON VETO BOUNDARY",
+  "stage_3_function": "UNRESOLVED",
+  "t3b_status": "Designed; not executed",
+  "canonical_revision_adopted": false
+}
