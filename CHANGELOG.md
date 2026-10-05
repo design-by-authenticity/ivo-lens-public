@@ -8,6 +8,8 @@ No unreleased canonical changes.
 
 ### Research archive — 2026-10-05
 
+- Archived the supplied [v0.3 experimental protocol](research/stress-tests/i-position-v0.3/README.md) byte-for-byte with a checksum manifest and provenance links. Separates position, function, and autonomy for testing; no tests executed or canonical changes adopted in this update.
+
 - Archived the [matched A/B regression summary](research/stress-tests/i-position-v0.2/IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md) with its own checksum manifest. Recorded reported model differences, evidence limitations, and the source's preliminary experimental-v0.3 decision; no canonical change.
 
 - Added the [positive-I regression follow-up](research/stress-tests/i-position-v0.2/IVO_I_POSITION_v0.2_POSITIVE_I_REGRESSION_FINDING.md), preserved byte-for-byte with a separate checksum manifest. Records four reported cases, a possible false-negative hypothesis, and a proposed A/B comparison; no canonical or protocol revision adopted.

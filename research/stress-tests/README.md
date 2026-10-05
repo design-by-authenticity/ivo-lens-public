@@ -32,3 +32,7 @@ The historical Baseline 1.0 package remains under [`../validation/baseline-1.0/`
 - [Positive-I follow-up finding](i-position-v0.2/IVO_I_POSITION_v0.2_POSITIVE_I_REGRESSION_FINDING.md) records four further constructed cases and a possible false-negative hypothesis, with a proposed targeted A/B comparison; experimental, with no canonical revision adopted.
 
 - [Matched A/B regression summary](i-position-v0.2/IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md) reports four comparisons of current v4.1 logic with an experimental position/function/autonomy split, and records the source's preliminary decision to formulate experimental v0.3. No canonical change is adopted by this archive.
+
+## Experimental I-position v0.3 protocol
+
+- [v0.3 protocol archive](i-position-v0.3/README.md) preserves the supplied position/function/autonomy experimental protocol with its checksum and testing status. It supersedes v0.2 for experimental testing only; no v0.3 results are recorded by this update, and canonical v4.1 remains unchanged.

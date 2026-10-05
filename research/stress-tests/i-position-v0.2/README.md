@@ -62,3 +62,7 @@ The report proposes adversarial near-miss tests before any canonical proposal: p
 The individual AB-01 through AB-04 outputs, exact run inputs, model/version metadata, execution settings, and independent scoring were not supplied with this summary. Reported repeatability across these cases is not independent verification or demonstrated cross-model reproducibility; reported PASS assessments and semantic conclusions remain attributable to the supplied report. No tests were rerun for publication.
 
 The file is preserved byte-for-byte with a separate [A/B provenance manifest](ab-regression-manifest.json). Earlier source artifacts and manifests remain unchanged. The archive date is not an inferred test date.
+
+## Subsequent experimental protocol
+
+The supplied [v0.3 experimental protocol](../i-position-v0.3/README.md) is now archived separately. It follows the A/B summary and supersedes v0.2 for experimental testing only. Earlier v0.2 source documents and manifests remain unchanged.

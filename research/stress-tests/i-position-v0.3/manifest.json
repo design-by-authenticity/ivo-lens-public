@@ -1,0 +1,12 @@
+{
+  "archived_on": "2026-10-05",
+  "version": "0.3",
+  "status": "experimental_noncanonical_test_only",
+  "source_filename": "IVO_I_POSITION_PROTOCOL_v0.3_EXPERIMENTAL.md",
+  "archived_filename": "IVO_I_POSITION_PROTOCOL_v0.3_EXPERIMENTAL.md",
+  "sha256": "48bbf1270bace75100d5655aefcce724bf5f664958471455bca31dc0eebd0f1a",
+  "canonical_baseline": "I·V·O Lens v4.1",
+  "supersedes_for_experimental_testing_only": "I-position protocol v0.2",
+  "execution_status": "Protocol archived; no v0.3 test results supplied or runs performed in this update",
+  "canonical_revision_adopted": false
+}
