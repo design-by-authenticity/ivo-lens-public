@@ -1,0 +1,20 @@
+{
+  "archived_on": "2026-10-05",
+  "status": "experimental_ab_regression_summary",
+  "source_filename": "IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md",
+  "archived_filename": "IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md",
+  "sha256": "2152ac5b16d24dc51ef5b1e1d47469aeb03757861629a133f20009644cbee63c",
+  "reported_cases": 4,
+  "reported_model_a": {
+    "established": 0,
+    "unresolved": 2,
+    "not_required": 2
+  },
+  "reported_model_b": {
+    "function_established": 4,
+    "autonomy_not_established": 2,
+    "autonomy_unresolved": 2
+  },
+  "decision_reported_in_source": "Sufficient evidence to formulate experimental v0.3 semantics; no canonical consequence",
+  "canonical_revision_adopted": false
+}

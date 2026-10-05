@@ -45,3 +45,20 @@ The supplied finding raises a **possible false-negative / selectivity-suppressio
 The document proposes holding canonical revision pending a targeted comparison of current v4.1 with an experimental split model. This archival update does not run or approve that comparison. The report includes case descriptions, but full original inputs/outputs, model versions, execution settings, run dates, and independent scoring were not supplied; cross-model reproducibility and false-negative rates remain unverified.
 
 The follow-up is preserved byte-for-byte with its own [provenance manifest](positive-i-manifest.json). The original four-file manifest and preliminary regression summary remain unchanged. The archive date does not establish the test date.
+
+## Follow-up: matched A/B regression summary — archived 5 October 2026
+
+The supplied [A/B regression summary](IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md) reports four matched comparisons: deterministic algorithm, energy controller, human route choice, and committee-in-procedure. The report states that case facts and O/V reconstructions were held constant while the semantic role of structural underdetermination varied.
+
+| Reported result | Model A: current v4.1 logic | Model B: experimental position/function/autonomy split |
+|---|---|---|
+| Algorithm and energy controller | I-function NOT REQUIRED | I-function ESTABLISHED; I-autonomy NOT ESTABLISHED |
+| Human choice and committee | I-function UNRESOLVED | I-function ESTABLISHED; I-autonomy UNRESOLVED |
+
+The source records a preliminary decision that the reported evidence is sufficient to formulate **experimental v0.3** for further testing, with **no canonical consequence**. This archive records that decision as supplied; publication does not itself create v0.3, adopt Model B, or revise v4.1. The source's instructions and proposed next actions are document content, not executed actions in this archival update.
+
+The report proposes adversarial near-miss tests before any canonical proposal: passive filters, thermostats, lookup tables, random selection, physical bifurcations, sorting without selection, passive registers, and nominal committees without actual influence. Its anti-inflation assessment remains provisional.
+
+The individual AB-01 through AB-04 outputs, exact run inputs, model/version metadata, execution settings, and independent scoring were not supplied with this summary. Reported repeatability across these cases is not independent verification or demonstrated cross-model reproducibility; reported PASS assessments and semantic conclusions remain attributable to the supplied report. No tests were rerun for publication.
+
+The file is preserved byte-for-byte with a separate [A/B provenance manifest](ab-regression-manifest.json). Earlier source artifacts and manifests remain unchanged. The archive date is not an inferred test date.
