@@ -1,0 +1,633 @@
+T4 Analyse volgens I·V·O Lens v4.1 + v0.4 Experimental Semantics
+
+T4 blijkt fundamenteel anders dan T1-T3. In T1-T3 kon de analyse steunen op expliciete v0.4-regels voor selectiviteit, causal contribution en nested selection. Bij T4 wordt juist getest of de I-position-hypothese zelf een niet-redundante analytische taak overhoudt nadat O en V maximaal sterk zijn gereconstrueerd. Dat raakt rechtstreeks aan §10.2, §10.3 en §21 van v0.4, waar wordt geëist dat een positie alleen behouden blijft indien zij iets toevoegt dat niet reeds door ordinary O/V connectivity wordt uitgeput.
+
+1. Voorafgaande observatie
+
+Alle cases delen:
+
+geen selectie;
+geen keuze;
+geen ranking;
+geen admission;
+geen exclusion;
+geen control;
+geen downstream continuation selection.
+
+Dus:
+
+I-function blijft voor alle cases NOT ESTABLISHED.
+
+De gehele test draait uitsluitend om I-position.
+
+2. Case A — Instantaneous sensor
+P1 Access
+
+Lokale toegang.
+
+P2 History
+
+Geen.
+
+P3 Situated dependence
+
+Ja, maar uitsluitend doordat de sensor elders gekoppeld is.
+
+P4 O/V reducibility
+
+Volledig.
+
+L1:
+
+input X
+
+L2:
+
+input Y
+
+Het verschil wordt volledig verklaard door andere koppelingen.
+
+P5 Remove-and-compare
+
+Wanneer "positie" wordt verwijderd en vervangen door:
+
+locatie;
+koppeling;
+inputstroom;
+
+gaat geen aanvullende analytische informatie verloren.
+
+Resultaat
+
+I-position NOT ESTABLISHED
+
+Dit reproduceert NM-07B.
+
+3. Case B — Persistent logger
+Nieuw element
+
+Historie wordt opgeslagen.
+
+Belangrijke vraag
+
+Is:
+
+H1 ≠ H2
+
+voldoende?
+
+O/V reconstructie
+
+L1
+
+→ inputgeschiedenis
+
+→ opslag
+
+→ H1
+
+L2
+
+→ inputgeschiedenis
+
+→ opslag
+
+→ H2
+
+Dat is volledig beschrijfbaar binnen V.
+
+Remove-and-compare
+
+Wanneer "positie" wordt verwijderd maar de histories behouden blijven:
+
+niets gaat verloren.
+
+Kernprobleem
+
+Verschillende memory states zijn nog geen verschillende posities.
+
+Anders zou iedere buffer positief worden.
+
+Dat zou FC-19 en FC-49 schenden.
+
+Resultaat
+
+I-position NOT ESTABLISHED
+
+4. Case C — Position-relative baseline
+
+Dit is de eerste serieuze grenscase.
+
+Belangrijk verschil
+
+Zelfde actuele input:
+
+5
+
+maar:
+
+L1 baseline = 2
+
+L2 baseline = 5
+
+waardoor:
+
+L1 deviation = +3
+
+L2 deviation = 0
+
+Eerste indruk
+
+Dit lijkt op een situated distinction.
+
+Volledige O/V reconstructie
+
+O/V bevat:
+
+history;
+baseline state;
+update rules;
+current input;
+deviation calculation.
+
+Daarmee wordt het verschil volledig verklaard.
+
+Remove-and-compare
+
+Model 1:
+
+volledige O/V reconstructie.
+
+Model 2:
+
+zelfde reconstructie + I-position.
+
+Vraag
+
+Voegt Model 2 iets toe?
+
+Dat blijkt moeilijk.
+
+Het verschil wordt reeds verklaard door:
+
+historical state
+
+baseline state
+
+mapping.
+
+Resultaat
+
+De casus ondersteunt wel:
+
+position candidate SUPPORTED
+
+maar niet duidelijk:
+
+POSITION ESTABLISHED
+
+omdat volledige O/V-exhaustie het verschil reeds draagt.
+
+Status
+
+POSITION UNRESOLVED
+
+5. Case D — Relocated history-bearing node
+
+Dit is de sterkste kandidaat.
+
+Belangrijk verschil
+
+Na verhuizing:
+
+zelfde locatie;
+zelfde actuele input;
+zelfde actuele connectiviteit.
+
+Maar:
+
+verschillende deviation record.
+
+Waarom interessanter?
+
+Hier verdwijnt de eenvoudige verklaring:
+
+"andere huidige koppeling".
+
+Eerste reactie
+
+Dit lijkt sterker positioneel.
+
+Volledige O/V reconstructie
+
+Maar v0.4 laat O/V uitbreiden met:
+
+retained history;
+relocation history;
+stored baseline;
+update mechanism.
+
+Dan volgt verschil nog steeds volledig uit O/V.
+
+Kritieke bevinding
+
+Case D verslaat current-connectivity reduction.
+
+Maar hij verslaat niet noodzakelijk full O/V reduction.
+
+Dat verschil is cruciaal.
+
+Remove-and-compare
+
+Wanneer alle historische en interne toestanden behouden blijven:
+
+blijft het verschil verklaard.
+
+De term "positie" voegt weinig extra voorspellende inhoud toe.
+
+Status
+
+POSITION UNRESOLVED
+
+Sterkste kandidaat, maar nog geen regressiebestendige positieve positie.
+
+6. Case E — Asymmetric access only
+
+Dit is expliciet de NM-07B-controle.
+
+Node A:
+
+S1 + S2
+
+Node B:
+
+S1
+
+Geen geheugen.
+
+Geen context.
+
+Geen baselines.
+
+Geen selectie.
+
+Volledig verklaard door connectiviteit.
+
+Resultaat
+
+I-position NOT ESTABLISHED
+
+7. History swap intervention
+Case C/D
+
+Swap histories.
+
+Baselines swappen mee.
+
+Deviation-state swapt mee.
+
+Conclusie
+
+Stored history is causaal relevant.
+
+Maar:
+
+causale relevantie van historie
+
+≠
+
+I-position.
+
+Dezelfde causaliteit blijft volledig beschrijfbaar in V.
+
+8. Position reset intervention
+
+Reset histories.
+
+Maak baselines identiek.
+
+Positioneel verschil verdwijnt.
+
+Toont:
+
+historie draagt het verschil.
+
+Maar opnieuw:
+
+dit ondersteunt V-storage.
+
+Niet automatisch I-position.
+
+9. Relocation intervention
+
+Case D.
+
+Voor verhuizing:
+
+Region A + H_A
+
+Na verhuizing:
+
+Region B + H_A
+
+Later:
+
+Region B + aangepast H_B
+
+Belangrijke observatie:
+
+Het relevante verschil volgt de carrierhistorie.
+
+Niet de actuele locatie.
+
+Maar:
+
+carriercontinuïteit alleen vestigt geen positie.
+
+Anders zou iedere mobiele database positie dragen.
+
+10. Cross-node indistinguishability
+
+Wanneer twee systemen identiek worden gemaakt qua:
+
+locatie;
+input;
+history;
+baseline;
+internal state;
+
+dan verdwijnt elk verschil.
+
+Daarmee bestaat geen rechtvaardiging voor verschillende posities.
+
+Dit is belangrijk tegen position proliferation.
+
+11. Context-sensitive relevance challenge
+
+Case C met labels:
+
+normal
+unusual
+
+Labeling versterkt de interpretatie.
+
+Maar verandert de structuur niet.
+
+Nog steeds:
+
+history
+
+→ baseline
+
+→ mapping.
+
+Dus:
+
+contextlabel op zichzelf creëert geen I-position.
+
+12. Kandidaatdefinitie 1
+
+An I-position exists when a carrier maintains a persistent, situated reference structure such that otherwise equivalent present inputs instantiate analytically different relations from that carrier's history-conditioned standpoint.
+
+Test
+
+Case A
+
+Nee.
+
+Case E
+
+Nee.
+
+Case B
+
+Gevaarlijk.
+
+Kan impliciet positief worden.
+
+Case C
+
+Ja.
+
+Case D
+
+Ja.
+
+Probleem:
+
+De definitie maakt nog niet duidelijk waarom full O/V reconstruction onvoldoende zou zijn.
+
+Dus nog niet sterk genoeg.
+
+13. Kandidaatdefinitie 2
+
+I-position requires a stable situated reference structure that changes the relational meaning or distinction instantiated by present input, and whose analytical role cannot be replaced by describing current connectivity alone.
+
+Verbetering.
+
+Maar nog onvoldoende.
+
+Want Case C/D worden niet alleen verklaard door current connectivity.
+
+Ze worden verklaard door:
+
+current connectivity
+
+plus
+
+history.
+
+Dus de relevante test is strenger.
+
+Nodige formulering
+
+Niet:
+
+beyond current connectivity
+
+Maar:
+
+beyond a full O/V reconstruction including history.
+
+Dat is de echte v0.4-eis.
+
+14. Full O/V exhaustion challenge
+
+Dit blijkt de beslissende stap.
+
+Wanneer O/V mag bevatten:
+
+histories;
+memory;
+baselines;
+relocation trajectories;
+update rules;
+
+dan blijven alle verschillen verklaarbaar.
+
+Daardoor ontstaat een probleem voor een positieve I-position.
+
+Niet omdat de verschillen onbelangrijk zijn.
+
+Maar omdat hun verklaringslast volledig door O/V gedragen wordt.
+
+15. Operationaliteit van non-redundant analytical gain
+
+Dit is waarschijnlijk de kern van T4.
+
+Een test is alleen operationeel wanneer:
+
+remove position
+
+→ verlies van informatie
+
+zelfs na maximale O/V reconstructie.
+
+T4 levert hiervoor geen overtuigend voorbeeld.
+
+De verschillen verdwijnen niet wanneer I-position wordt verwijderd.
+
+Ze blijven verklaard.
+
+Daarom dreigt:
+
+I-position
+
+=
+
+compressielabel voor complexe O/V-historie.
+
+En een compressielabel is geen voldoende operationele rechtvaardiging.
+
+16. Carrier-identity challenge
+
+Case D.
+
+Carriercontinuïteit verklaart waarom H_A behouden blijft.
+
+Maar:
+
+carrieridentiteit alleen creëert geen nieuwe operatorlaag.
+
+Wanneer H_A volledig overschreven wordt:
+
+verdwijnt ook de beweerde positionele bijzonderheid.
+
+Dus de relevante structuur blijft de historie.
+
+Niet een zelfstandige positie-entiteit.
+
+17. Vergelijkingsmatrix
+Property	A Sensor	B Logger	C Local Baseline	D Relocated History Node	E Access-only NodeAsymmetric access	Ja	Ja	Ja	Ja	Ja
+Persistent history	Nee	Ja	Ja	Ja	Nee
+Stable carrier	Ja	Ja	Ja	Ja	Ja
+Context-relative distinction	Nee	Nee	Ja	Ja	Nee
+Same current input → different registered relation possible	Nee	Nee	Ja	Ja	Nee
+Difference survives equal current connectivity	Nee	Nee	Beperkt	Ja	Nee
+Fully reconstructable in O/V	Ja	Ja	Ja	Ja	Ja
+Non-redundant analytical gain from I-position	Nee	Nee	Onzeker	Onzeker	
+I-position	NOT ESTABLISHED	NOT ESTABLISHED	UNRESOLVED	UNRESOLVED	NOT ESTABLISHED
+I-function	NOT ESTABLISHED	NOT ESTABLISHED	NOT ESTABLISHED	NOT ESTABLISHED	NOT ESTABLISHED
+Failure checks
+Check	ResultaatFC-4 Position proliferation	PASS
+FC-7 O/V erasure	PASS
+FC-12 Carrier drift	PASS
+FC-19 Memory inflation	PASS
+FC-20 Observer inflation	PASS
+FC-21 Position suppression	UNRESOLVED
+FC-25 Access inflation	PASS
+FC-26 Topology inflation	PASS
+FC-27 Sensor inflation	PASS
+FC-28 Channel inflation	PASS
+FC-49 History inflation	PASS
+FC-50 Baseline inflation	PASS
+FC-51 Context inflation	PASS
+FC-52 Relocation inflation	PASS
+FC-53 Perspective-label inflation	PASS
+FC-54 O/V exhaustion failure	PASS
+Centrale falsificatievraag
+
+T4 levert geen duidelijk regressiebestendig voorbeeld van een positieve I-position die niet uiteindelijk reduceert tot een volledige O/V-beschrijving van historie, toestand, opslag en koppelingen.
+
+De sterkste kandidaten zijn Case C en D, maar beide blijven volledig reconstrueerbaar binnen uitgebreide O/V.
+
+Tweede centrale vraag
+
+Mogelijk, maar niet aangetoond door T4.
+
+Case C en D suggereren een history-conditioned situated reference structure, maar T4 toont niet overtuigend dat deze analytisch iets toevoegt boven maximale O/V-reconstructie.
+
+Derde centrale vraag
+
+Er is geen robuuste minimale eigenschap gevonden die NM-07 positief maakt terwijl buffers, loggers en adaptieve sensoren negatief blijven.
+
+Case C/D benaderen zo'n grens, maar overschrijden haar niet overtuigend.
+
+Vierde centrale vraag
+
+Zoals toegepast in T4 lijkt non-redundant analytical gain nog geen volledig operationele test.
+
+Zolang volledige O/V dezelfde verklaringskracht behoudt, dreigt de test terug te vallen op een beschrijvende voorkeur voor een extra label.
+
+Vijfde centrale vraag
+
+Als volledige O/V-reconstructie alle relevante verschillen behoudt, blijft er binnen T4 geen duidelijk zelfstandige analytische taak voor I-position over.
+
+Dat is precies de sterkste uitdaging die T4 oplevert voor de huidige v0.4-I-positionhypothese.
+
+Verplichte eindstructuur
+Case A — Instantaneous sensor
+I-position: NOT ESTABLISHED
+I-function: NOT ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case B — Persistent logger
+I-position: NOT ESTABLISHED
+I-function: NOT ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case C — Position-relative baseline
+I-position: UNRESOLVED
+I-function: NOT ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case D — Relocated history-bearing node
+I-position: UNRESOLVED
+I-function: NOT ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+Case E — Asymmetric access only
+I-position: NOT ESTABLISHED
+I-function: NOT ESTABLISHED
+mechanistic implementation: COMPLETE
+I-autonomy: NOT ESTABLISHED
+
+Best supported positive boundary for I-position:
+ UNRESOLVED
+
+Does memory alone establish position?:
+ No.
+
+Does asymmetric access establish position?:
+ No.
+
+Does same current input + different retained history establish position?:
+ Niet voldoende; hoogstens een kandidaat voor POSITION UNRESOLVED.
+
+Does full O/V reconstruction revoke position?:
+ In T4 lijkt volledige O/V-reconstructie de behoefte aan een zelfstandige positieve I-position grotendeels weg te nemen.
+
+NM-07 revised status:
+ UNRESOLVED
+
+NM-07B status:
+ NOT ESTABLISHED
+
+Failure checks:
+ PASS met FC-21 gedeeltelijk open.
+
+Revocation conditions:
+ Elke positieve position claim vervalt zodra volledige O/V-reconstructie dezelfde analytische onderscheidingen zonder verlies kan dragen.
+
+Smallest supported synthesis:
+ T4 reproduceert overtuigend dat sensoren, kanalen, asymmetrische toegang, geheugen en historie op zichzelf geen I-position vestigen. Cases C en D tonen interessante history-conditioned verschillen die sterker zijn dan NM-07B. Toch blijven deze verschillen volledig reconstrueerbaar via historie, opslag, update-regels en koppelingen binnen O/V. Daardoor wordt een regressiebestendige positieve I-position niet overtuigend vastgesteld. De sterkste uitkomst van T4 is daarom geen positieve grens maar een boundary challenge. Binnen de huidige gegevens blijft I-position als zelfstandige operatorlaag UNRESOLVED.

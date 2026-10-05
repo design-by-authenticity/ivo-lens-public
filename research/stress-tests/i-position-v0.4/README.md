@@ -31,3 +31,7 @@ The [T3 decision record](t3-veto-boundary/T3_REVIEW_DECISION.md) registers **PAS
 ## Qualified T3B result and T4
 
 [T3B review](t3b-qualified-result/T3B_REVIEW_DECISION.md) records **PASS WITH SEMANTIC QUALIFICATION**: relational constrained allocation is sufficient in the tested structure, not proven necessary for all I-functions. The fixed T3 veto is now conditionally NOT ESTABLISHED. The supplied Cases A–C do not certify completion of every previously designed T3B control. The T4 deferral is lifted; [T4's position-boundary design](t4-position-boundary/T4_TEST_DESIGN.md) is prepared but not executed. Protocol v0.4 remains unchanged.
+
+## T4 result and architectural amendment proposal
+
+The [T4 decision note](t4-position-boundary/T4_DECISION_NOTE_V0.4_AMENDMENT_PROPOSAL.md) records **POSITIVE I-POSITION HYPOTHESIS NOT ESTABLISHED**, regression discipline PASS, and an independent position dimension UNRESOLVED / unsupported by current tests. It proposes demoting I-position to a research hypothesis while retaining scope, carrier, access, history, and outside view as situated-analysis elements. NM-07 is reviewed as POSITION UNRESOLVED; NM-07B remains NOT ESTABLISHED. The original A–E analysis is preserved; it does not certify completion of every earlier P1–P6 design control. No protocol is amended and T5 is not started.

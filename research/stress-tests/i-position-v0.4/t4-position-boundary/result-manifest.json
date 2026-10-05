@@ -1,0 +1,14 @@
+{
+  "archived_on": "2026-10-05",
+  "source_filename": "Geplakte tekst.txt",
+  "archived_filename": "T4_ORIGINAL_ANALYSIS.txt",
+  "sha256": "72581401fbf6db310864b59e38e2cba54da2833218818a5f7d0d87152c443af1",
+  "result": "POSITIVE I-POSITION HYPOTHESIS NOT ESTABLISHED",
+  "regression_discipline": "PASS",
+  "independent_position_dimension": "UNRESOLVED / unsupported by current tests",
+  "review_authority": "Explicit user review",
+  "amendment_status": "Proposal only; no protocol modified",
+  "t5_status": "Not started",
+  "tests_rerun_for_archival_update": false,
+  "canonical_revision_adopted": false
+}
