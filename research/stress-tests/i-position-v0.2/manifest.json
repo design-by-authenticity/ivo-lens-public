@@ -1,0 +1,27 @@
+{
+  "archived_on": "2026-10-05",
+  "status": "Experimental research provenance; non-canonical",
+  "source": "Four user-supplied documents; preserved byte-for-byte",
+  "artifacts": [
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.1.md",
+      "archived_filename": "IVO_I_POSITION_PROTOCOL_v0.1.md",
+      "sha256": "3961cbb4ead7e159efd3a7551db11852c39aaf963af2b72518a451f0b818db24"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_PROTOCOL_v0.2.md",
+      "archived_filename": "IVO_I_POSITION_PROTOCOL_v0.2.md",
+      "sha256": "35876e09bb944a4aea7b039ebae5aef8f746d7429f853060785b9877eacca2fa"
+    },
+    {
+      "source_filename": "IVO_I_POSITION_v0.2_PRELIMINARY_REGRESSION_SUMMARY.md",
+      "archived_filename": "IVO_I_POSITION_v0.2_PRELIMINARY_REGRESSION_SUMMARY.md",
+      "sha256": "a773ef268c7b4e8d0317a28cf755fe8cd434663cf04ed9e5924c53a2453ce1c7"
+    },
+    {
+      "source_filename": "ivo-lens-prompt-v4.1 (1).md",
+      "archived_filename": "ivo-lens-prompt-v4.1.md",
+      "sha256": "a9228051d2b86bddd06c143f1f065e0ac0c9acb6273b3a472deb087e8db8fc7b"
+    }
+  ]
+}

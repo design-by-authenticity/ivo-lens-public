@@ -6,6 +6,11 @@ All notable public releases of the I·V·O Lens repository are recorded here. Th
 
 No unreleased canonical changes.
 
+### Research archive — 2026-10-05
+
+- Archived the supplied experimental I-position v0.1/v0.2 protocols and preliminary four-case v0.2 regression summary, with the exact supplied v4.1 baseline and SHA-256 manifest.
+- Recorded reported positional gains, zero established I-functions, evidence limitations, and the proposed positive-I test phase. See [the archive](research/stress-tests/i-position-v0.2/README.md).
+
 ## [4.1.0] — 2026-10-01
 
 ### Epistemic safeguard release

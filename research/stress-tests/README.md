@@ -24,3 +24,7 @@ Stress-test dossiers should document:
 The v4.0 RC1–RC4 series remains preserved separately under [`../../prompts/development-history/v4.0/`](../../prompts/development-history/v4.0/) as release-candidate provenance.
 
 The historical Baseline 1.0 package remains under [`../validation/baseline-1.0/`](../validation/baseline-1.0/) and is not moved or rewritten. A frozen, stress-tested, or regression-tested prompt is not automatically an empirically validated prompt.
+
+## Experimental I-position research
+
+- [I-position v0.2 preliminary regression archive](i-position-v0.2/README.md) preserves the supplied v0.1/v0.2 protocols, four-case summary, and exact v4.1 baseline. Reported findings are preliminary and non-canonical; raw runs and execution metadata were not supplied. Archived 5 October 2026.
