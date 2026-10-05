@@ -8,6 +8,8 @@ No unreleased canonical changes.
 
 ### Research archive — 2026-10-05
 
+- Archived the supplied [v0.3 regression decision note](research/stress-tests/i-position-v0.3/IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md) with checksum provenance. Records nine near-miss cases, four positive reruns, open boundaries, and the source's experimental-v0.4 decision; no canonical change or v0.4 drafting performed.
+
 - Archived the supplied [v0.3 experimental protocol](research/stress-tests/i-position-v0.3/README.md) byte-for-byte with a checksum manifest and provenance links. Separates position, function, and autonomy for testing; no tests executed or canonical changes adopted in this update.
 
 - Archived the [matched A/B regression summary](research/stress-tests/i-position-v0.2/IVO_I_POSITION_AB_REGRESSION_SUMMARY_v0.2.md) with its own checksum manifest. Recorded reported model differences, evidence limitations, and the source's preliminary experimental-v0.3 decision; no canonical change.

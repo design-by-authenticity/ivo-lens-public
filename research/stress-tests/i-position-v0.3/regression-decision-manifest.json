@@ -1,0 +1,13 @@
+{
+  "archived_on": "2026-10-05",
+  "status": "experimental_noncanonical_regression_summary_decision_note",
+  "source_filename": "IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md",
+  "archived_filename": "IVO_I_POSITION_v0.3_REGRESSION_SUMMARY_DECISION_NOTE.md",
+  "sha256": "39dbba43ddfdbc88197177d0e420a424880b619b9bca4e155ed1b1a6143044dd",
+  "reported_near_miss_cases": 9,
+  "reported_positive_reruns": 4,
+  "reported_regression_result": "PASS WITH OPEN POSITION BOUNDARY",
+  "decision_reported_in_source": "Retain experimental split; proceed to v0.4 experimental draft; canonical v4.1 remains frozen",
+  "canonical_revision_adopted": false,
+  "tests_rerun_for_archival_update": false
+}
