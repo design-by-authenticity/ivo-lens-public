@@ -1,0 +1,13 @@
+{
+  "archived_on": "2026-10-05",
+  "status": "experimental_regression_finding",
+  "source_filename": "Geplakte tekst.txt",
+  "archived_filename": "IVO_I_POSITION_v0.2_POSITIVE_I_REGRESSION_FINDING.md",
+  "sha256": "78e08b1cb301c3659e8bf372c968ac2b3d1d57f596c57b6515a7461d6eeb13e2",
+  "reported_cases": 4,
+  "reported_established_functions": 0,
+  "reported_unresolved_functions": 2,
+  "reported_not_required_functions": 2,
+  "proposed_decision_in_source": "hold_canon_revision_pending_targeted_A_B_test",
+  "canonical_revision_adopted": false
+}

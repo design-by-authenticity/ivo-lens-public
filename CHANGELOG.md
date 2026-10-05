@@ -8,6 +8,8 @@ No unreleased canonical changes.
 
 ### Research archive — 2026-10-05
 
+- Added the [positive-I regression follow-up](research/stress-tests/i-position-v0.2/IVO_I_POSITION_v0.2_POSITIVE_I_REGRESSION_FINDING.md), preserved byte-for-byte with a separate checksum manifest. Records four reported cases, a possible false-negative hypothesis, and a proposed A/B comparison; no canonical or protocol revision adopted.
+
 - Archived the supplied experimental I-position v0.1/v0.2 protocols and preliminary four-case v0.2 regression summary, with the exact supplied v4.1 baseline and SHA-256 manifest.
 - Recorded reported positional gains, zero established I-functions, evidence limitations, and the proposed positive-I test phase. See [the archive](research/stress-tests/i-position-v0.2/README.md).
 

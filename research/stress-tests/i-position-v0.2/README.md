@@ -35,3 +35,13 @@ These cases mainly test restraint against false-positive I-function assignments.
 The supplied summary recommends retaining v0.2 unchanged pending positive-I cases, with particular attention to false negatives. Candidate domains are algorithmic selection, traceable human choice, formal organisational decision rules, and technical systems with an independently traceable selective step. These are proposed tests, not executed results or pre-established I-functions.
 
 Subsequent test results belong in a new dated record so this supplied preliminary summary remains an identifiable historical snapshot. Record exact inputs, outputs, model/settings, scope-matched comparisons, and selection evidence for that next phase.
+
+## Follow-up: positive-I regression finding — archived 5 October 2026
+
+The subsequent [positive-I regression finding](IVO_I_POSITION_v0.2_POSITIVE_I_REGRESSION_FINDING.md) reports four deliberately constructed cases with explicit selection evidence. The deterministic algorithm and energy controller ended as **I-FUNCTION NOT REQUIRED**; human choice and the organisational committee ended as **FUNCTION UNRESOLVED**. No I-function was established.
+
+The supplied finding raises a **possible false-negative / selectivity-suppression hypothesis**: transparent selection mechanisms may be absorbed into O/V, leaving no established I-function. This is a reported experimental interpretation, not an independently confirmed defect in canonical v4.1. The proposed position/function/autonomy distinction and illustrative reclassifications are not adopted here.
+
+The document proposes holding canonical revision pending a targeted comparison of current v4.1 with an experimental split model. This archival update does not run or approve that comparison. The report includes case descriptions, but full original inputs/outputs, model versions, execution settings, run dates, and independent scoring were not supplied; cross-model reproducibility and false-negative rates remain unverified.
+
+The follow-up is preserved byte-for-byte with its own [provenance manifest](positive-i-manifest.json). The original four-file manifest and preliminary regression summary remain unchanged. The archive date does not establish the test date.
